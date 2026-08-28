@@ -14,15 +14,15 @@
 
 	<meta property="og:title" content="MK | Vývojář"/>
 	<meta property="og:description" content="Osobní portfolio a projekty vývojáře se zájmem o systémové programování a webové technologie."/>
-	<meta property="og:image" content="https://mk-forge.dev/og-image.png"/>
-	<meta property="og:url" content="https://mk-forge.dev"/>
+	<meta property="og:image" content="https://mk-forge.netlify.app/og-image.png"/>
+	<meta property="og:url" content="https://mk-forge.netlify.app"/>
 	<meta property="og:type" content="website"/>
 	<meta property="og:site_name" content="MK | Vývojář"/>
 
 	<meta name="twitter:card" content="summary_large_image"/>
 	<meta name="twitter:title" content="MK | Vývojář"/>
 	<meta name="twitter:description" content="Osobní portfolio a projekty vývojáře se zájmem o systémové programování a webové technologie."/>
-	<meta name="twitter:image" content="https://mk-forge.dev/og-image.png"/>
+	<meta name="twitter:image" content="https://mk-forge.netlify.app/og-image.png"/>
 </svelte:head>
 
 <Scrollbar>
