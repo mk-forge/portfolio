@@ -29,9 +29,9 @@ I built this as my main developer portfolio, mainly to have a solid place to lin
 
 ## Screenshots
 
-![Home page](/src/lib/assets/screenshots/portfolio/home.png)
-![Projects page](/src/lib/assets/screenshots/portfolio/projects.png)
-![Contact page](/src/lib/assets/screenshots/portfolio/contact.png)
+![Home page](/screenshots/portfolio/home.png)
+![Projects page](/screenshots/portfolio/projects.png)
+![Contact page](/screenshots/portfolio/contact.png)
 
 ## Installation
 

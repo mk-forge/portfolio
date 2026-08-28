@@ -38,7 +38,7 @@ npm start
 
 ## Screenshots
 
-![Player creation](/src/lib/assets/screenshots/table-tennis-manager/player-creation.png)
-![Player list](/src/lib/assets/screenshots/table-tennis-manager/player-list.png)
-![Player detail](/src/lib/assets/screenshots/table-tennis-manager/player-detail.png)
-![Player matches](/src/lib/assets/screenshots/table-tennis-manager/player-matches.png)
+![Player creation](/screenshots/table-tennis-manager/player-creation.png)
+![Player list](/screenshots/table-tennis-manager/player-list.png)
+![Player detail](/screenshots/table-tennis-manager/player-detail.png)
+![Player matches](/screenshots/table-tennis-manager/player-matches.png)

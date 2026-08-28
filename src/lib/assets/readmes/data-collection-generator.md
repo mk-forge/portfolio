@@ -31,10 +31,10 @@ The original tool was RAM‑only, so it worked well for small datasets but faile
 
 ## Screenshots
 
-![Login page](/src/lib/assets/screenshots/data-collection-generator/login.png)
-![Data collections page](/src/lib/assets/screenshots/data-collection-generator/collections.png)
-![Histogram](/src/lib/assets/screenshots/data-collection-generator/histogram.png)
-![Query collections page](/src/lib/assets/screenshots/data-collection-generator/queries.png)
+![Login page](/screenshots/data-collection-generator/login.png)
+![Data collections page](/screenshots/data-collection-generator/collections.png)
+![Histogram](/screenshots/data-collection-generator/histogram.png)
+![Query collections page](/screenshots/data-collection-generator/queries.png)
 
 ## Installation
 

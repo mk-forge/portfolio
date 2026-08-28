@@ -27,10 +27,10 @@ The compiled `.jar` ends up in `build/libs/`.
 
 ## Screenshots
 
-![Ore generation](/src/lib/assets/screenshots/minecraft-gems-mod/ore_generation.png)
-![Creative tab](/src/lib/assets/screenshots/minecraft-gems-mod/creative_tab.png)
-![Crafting](/src/lib/assets/screenshots/minecraft-gems-mod/crafting.png)
-![Armor and tools](/src/lib/assets/screenshots/minecraft-gems-mod/armor_and_tools.png)
+![Ore generation](/screenshots/minecraft-gems-mod/ore_generation.png)
+![Creative tab](/screenshots/minecraft-gems-mod/creative_tab.png)
+![Crafting](/screenshots/minecraft-gems-mod/crafting.png)
+![Armor and tools](/screenshots/minecraft-gems-mod/armor_and_tools.png)
 
 ## Credits
 

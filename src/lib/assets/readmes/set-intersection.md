@@ -37,7 +37,7 @@ doxygen Doxyfile
 
 ## Screenshots
 
-![Tests passed](/src/lib/assets/screenshots/set-intersection/tests.png)
-![Help message](/src/lib/assets/screenshots/set-intersection/help.png)
-![Custom files](/src/lib/assets/screenshots/set-intersection/custom.png)
-![Default run](/src/lib/assets/screenshots/set-intersection/default.png)
+![Tests passed](/screenshots/set-intersection/tests.png)
+![Help message](/screenshots/set-intersection/help.png)
+![Custom files](/screenshots/set-intersection/custom.png)
+![Default run](/screenshots/set-intersection/default.png)
