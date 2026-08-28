@@ -1,10 +1,8 @@
 <script lang="ts">
   import { onMount } from 'svelte';
   import { OverlayScrollbars } from 'overlayscrollbars';
-  import 'overlayscrollbars/overlayscrollbars.css';
-  import '$lib/styles/scrollbar.css';
-  import '$lib/styles/tabpanelscrollbar.css';
   import { scrollState } from '$lib/scrollState.svelte';
+  import '$lib/styles/tabpanelscrollbar.css';
 
   let container: HTMLDivElement;
   let { children } = $props();
