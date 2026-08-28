@@ -1,0 +1,1 @@
+export let scrollState = $state({ pageY: 0, tabY: 0, pageViewport: null as HTMLElement | null, tabViewport: null as HTMLElement | null });

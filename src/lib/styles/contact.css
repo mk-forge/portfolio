@@ -1,0 +1,151 @@
+.contact-page h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact-page .subtitle {
+  margin-top: 1rem;
+  color: #555555;
+}
+
+.contact-page form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  max-width: 500px;
+  margin-top: 1.5rem;
+}
+
+.contact-page label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.contact-page label span {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.contact-page input, .contact-page textarea, .contact-page button {
+  font-family: inherit;
+}
+
+.contact-page input, .contact-page textarea {
+  padding: 0.6rem;
+  border: 1px solid #cccccc;
+  background: #ffffff;
+  color: #1e1e1e;
+  font-size: 0.95rem;
+}
+
+.contact-page button {
+  padding: 0.7rem 1.5rem;
+  background: #1e1e1e;
+  color: #ffffff;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1rem;
+  align-self: flex-start;
+}
+
+.contact-page button:hover {
+  opacity: 0.8;
+}
+
+.contact-page .success, .contact-page .error {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-top: 0.5rem;
+  padding: 0.7rem 1rem;
+  font-size: 0.9rem;
+}
+
+.contact-page .success img, .contact-page .error img {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+
+.contact-page .success {
+  background: #e6f4ea;
+  border-left: 4px solid #2e7d32;
+  color: #2e7d32;
+}
+
+.contact-page .error {
+  background: #fdecea;
+  border-left: 4px solid #c62828;
+  color: #c62828;
+}
+
+.contact-page hr {
+  margin: 2rem 0 1.5rem 0;
+  border: none;
+  border-top: 1px solid #dddddd;
+}
+
+.contact-page .contact-info {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+  align-items: center;
+}
+
+.contact-page .contact-info p {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0;
+}
+
+.contact-page .contact-info a {
+  display: inline-flex;
+  align-items: center;
+  color: #1e1e1e;
+  transition: opacity 0.2s ease;
+  text-decoration: none;
+}
+
+.contact-page .contact-info a:hover {
+  opacity: 0.7;
+  text-decoration: none;
+}
+
+body.dark .contact-page .subtitle {
+  color: #aaaaaa;
+}
+
+body.dark .contact-page input, body.dark .contact-page textarea {
+  background: #2d2d2d;
+  border-color: #555555;
+  color: #e0e0e0;
+}
+
+body.dark .contact-page button {
+  background: #f0f0f0;
+  color: #1e1e1e;
+}
+
+body.dark .contact-page .success {
+  background: rgba(102, 187, 106, 0.12);
+  border-left-color: #66bb6a;
+  color: #66bb6a;
+}
+
+body.dark .contact-page .error {
+  background: rgba(239, 83, 80, 0.12);
+  border-left-color: #ef5350;
+  color: #ef5350;
+}
+
+body.dark .contact-page hr {
+  border-top-color: #444444;
+}
+
+body.dark .contact-page .contact-info a {
+  color: #e0e0e0;
+}

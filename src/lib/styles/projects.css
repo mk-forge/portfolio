@@ -1,0 +1,244 @@
+.projects-page h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.projects-page .subtitle {
+  margin-bottom: 1.5rem;
+  opacity: 0.7;
+}
+
+.tabs-container {
+  border: 1px solid #d0d7de;
+  border-radius: 0 12px 0 12px;
+  background: #ffffff;
+  transition: border-color 0.2s ease;
+}
+
+.tabs-container .tab-list {
+  background: #f6f8fa;
+  border-bottom: 1px solid #d0d7de;
+  padding: 0.5rem 0.5rem 0 0.5rem;
+  margin: 0;
+  display: flex;
+  gap: 0.25rem;
+  flex-wrap: wrap;
+}
+
+.tabs-container .tab {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 0 8px 0 0;
+  padding: 0.5rem 1.2rem;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  border: none;
+  border-bottom: 2px solid transparent;
+  background: transparent;
+  cursor: pointer;
+  color: #1e1e2e;
+  font-family: inherit;
+  font-size: 0.85rem;
+}
+
+.tabs-container .tab:hover {
+  border-radius: 0 12px 0 0;
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.tabs-container .tab.active {
+  background: #ffffff;
+  border-radius: 0 8px 0 0;
+  border: 1px solid #d0d7de;
+  border-bottom: 2px solid #1e1e2e;
+  color: #1e1e2e;
+}
+
+.tabs-container .tab-panel {
+  padding: 1.5rem;
+}
+
+.tab-icon {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  display: inline-block;
+  filter: none;
+}
+
+.repo-link-btn {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 0.25rem;
+  opacity: 0.5;
+  transition: opacity 0.2s ease;
+  text-decoration: none;
+}
+
+.repo-link-btn:hover {
+  opacity: 1;
+}
+
+.repo-link-btn .repo-icon {
+  width: 18px;
+  height: 18px;
+  opacity: 0.6;
+  transition: opacity 0.2s ease;
+}
+
+.repo-link-btn:hover .repo-icon {
+  opacity: 1;
+}
+
+.project-content {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.project-content img {
+  max-width: 80%;
+  height: auto;
+  border-radius: 0 8px 0 8px;
+  border: 1px solid #d0d7de;
+  display: block;
+  margin: 0 auto;
+}
+
+.project-content h1 {
+  font-size: 1.8rem;
+  margin-top: 0;
+}
+
+.project-content h2 {
+  font-size: 1.3rem;
+  margin-top: 1.5rem;
+}
+
+.project-content h3 {
+  font-size: 1.1rem;
+  margin-top: 1.2rem;
+}
+
+.project-content pre code {
+  background: transparent;
+  padding: 0;
+}
+
+.project-content :not(pre) code {
+  font-family: 'Geist Mono', monospace;
+  font-size: 0.85rem;
+  background: rgba(0, 0, 0, 0.1);
+  padding: 0.1rem 0.3rem;
+  border-radius: 0 4px 0 4px;
+}
+
+.project-content pre {
+  background: #f0f0f0;
+  padding: 1rem;
+  border-radius: 0 8px 0 8px;
+  overflow-x: auto;
+  border: 1px solid #d0d7de;
+}
+
+.project-content a {
+  color: #1e1e2e;
+}
+
+.project-content ul, .project-content ol {
+  padding-left: 1.5rem;
+}
+
+.project-content table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.project-content th, .project-content td {
+  border: 1px solid #d0d7de;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+.project-content blockquote {
+  border-left: 4px solid #d0d7de;
+  padding-left: 1rem;
+  margin-left: 0;
+  color: #555555;
+}
+
+.project-content hr {
+  border: none;
+  border-top: 1px solid #d0d7de;
+  margin: 1.5rem 0;
+}
+
+.project-content .screenshot-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+body.dark .project-content img {
+  border-color: #30363d;
+}
+
+body.dark .project-content a {
+  color: #c9d1d9;
+}
+
+body.dark .project-content th, body.dark .project-content td {
+  border-color: #30363d;
+}
+
+body.dark .project-content blockquote {
+  border-color: #30363d;
+  color: #aaaaaa;
+}
+
+body.dark .project-content hr {
+  border-color: #30363d;
+}
+
+body.dark .project-content pre {
+  background: #2a2a2a;
+  border-color: #30363d;
+}
+
+body.dark .tabs-container {
+  border-color: #30363d;
+  background: #1e1e1e;
+}
+
+body.dark .tabs-container .tab-list {
+  border-bottom-color: #30363d;
+  background: #1a1a1a;
+}
+
+body.dark .tabs-container .tab {
+  color: #c9d1d9;
+}
+
+body.dark .tabs-container .tab:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+body.dark .tabs-container .tab.active {
+  background: #1e1e1e;
+  border-color: #30363d;
+  color: #c9d1d9;
+  border-bottom: 2px solid #c9d1d9;
+}
+
+body.dark .project-content :not(pre) code {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+body.dark .tab-icon {
+  filter: brightness(0) invert(1);
+}
+
+body.dark .repo-link-btn .repo-icon {
+  filter: brightness(0) invert(1);
+}

@@ -1,0 +1,177 @@
+body {
+  background: #ffffff;
+  color: #1e1e2e;
+  font-family: 'Geist Mono', monospace;
+  margin: 0;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+input, textarea, button {
+  border-radius: 0 12px 0 12px;
+  transition: border-radius 0.25s ease;
+}
+
+input:hover, textarea:hover, button:hover, .skills-card-wide:hover, .profile-card:hover {
+  border-radius: 0 18px 0 18px;
+}
+
+button {
+  transition: border-radius 0.25s ease, opacity 0.2s ease;
+}
+
+.page {
+  padding: 1.5rem 1.5rem 0rem 1.5rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #d0d7de;
+}
+
+nav a {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  color: inherit;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  letter-spacing: 0.02em;
+  padding: 0.3rem 0;
+  opacity: 0.75;
+  transition: opacity 0.2s ease;
+}
+
+nav a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.2s ease;
+}
+
+nav a:hover {
+  color: #ff3e00;
+  opacity: 1;
+  text-decoration: none;
+}
+
+nav a:hover::after {
+  transform: scaleX(1);
+}
+
+nav a.active {
+  color: #ff3e00;
+}
+
+nav a.active::before {
+  content: '>';
+  margin-right: 0.3rem;
+  color: #ff3e00;
+}
+
+.theme-toggle {
+  margin-left: auto;
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 0;
+  line-height: 0;
+  display: flex;
+  align-items: center;
+  color: inherit;
+  transition: opacity 0.2s ease;
+}
+
+.theme-toggle:hover {
+  opacity: 0.7;
+}
+
+.theme-toggle:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.theme-logo {
+  width: 40px;
+  height: 40px;
+}
+
+.heading {
+  display: inline-block;
+  position: relative;
+  transition: color 0.25s ease;
+  cursor: default;
+}
+
+.heading-prefix {
+  transition: color 0.25s ease;
+}
+
+.heading::after {
+  content: '_';
+  display: inline-block;
+  opacity: 0;
+  transition: opacity 0.2s ease, color 0.25s ease;
+  margin-left: 0;
+}
+
+.heading:hover {
+  color: #ff3e00;
+}
+
+.heading:hover .heading-prefix {
+  color: #ff3e00;
+}
+
+.heading:hover::after {
+  opacity: 1;
+  color: #ff3e00;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+body.dark {
+  background: #1e1e1e;
+  color: #c9d1d9;
+}
+
+body.dark nav {
+  border-bottom-color: #30363d;
+}
+
+body.dark nav a:hover {
+  color: #ff6b4a;
+}
+
+body.dark nav a.active {
+  color: #ff6b4a;
+}
+
+body.dark nav a.active::before {
+  color: #ff6b4a;
+}
+
+body.dark .heading:hover {
+  color: #ff6b4a;
+}
+
+body.dark .heading:hover .heading-prefix {
+  color: #ff6b4a;
+}
+
+body.dark .heading:hover::after {
+  color: #ff6b4a;
+}

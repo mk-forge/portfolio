@@ -1,0 +1,24 @@
+.scroll-container {
+  height: 100vh;
+  overflow: auto;
+}
+
+.scroll-container .os-theme-light {
+  --os-handle-bg: #c1c1c1;
+  --os-handle-bg-hover: #a8a8a8;
+  --os-handle-bg-active: #a8a8a8;
+  --os-handle-border-radius: 0;
+  --os-handle-perpendicular-size: 8px;
+  --os-handle-perpendicular-size-hover: 14px;
+  --os-handle-perpendicular-size-active: 14px;
+}
+
+.scroll-container .os-theme-light .os-handle:hover, .scroll-container .os-theme-light .os-handle.os-handle-active {
+  --os-handle-perpendicular-size: 14px;
+}
+
+body.dark .scroll-container .os-theme-light {
+  --os-handle-bg: #3a3a3a;
+  --os-handle-bg-hover: #5a5a5a;
+  --os-handle-bg-active: #5a5a5a;
+}
