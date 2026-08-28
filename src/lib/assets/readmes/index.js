@@ -1,0 +1,8 @@
+export { default as readmeDataGenRaw } from '$lib/assets/readmes/data-collection-generator.md?raw';
+export { default as readmeElearningRaw } from '$lib/assets/readmes/e-learning-platform.md?raw';
+export { default as readmeMcRaw } from '$lib/assets/readmes/minecraft-gems-mod.md?raw';
+export { default as readmePortfolioRaw } from '$lib/assets/readmes/portfolio.md?raw';
+export { default as readmeCsfdRaw } from '$lib/assets/readmes/csfd-extended.md?raw';
+export { default as readmeTableTennisRaw } from '$lib/assets/readmes/table-tennis-manager.md?raw';
+export { default as readmeSetIntersectionRaw } from '$lib/assets/readmes/set-intersection.md?raw';
+export { default as readmeWindowsCleanerRaw } from '$lib/assets/readmes/windows-process-cleaner.md?raw';
