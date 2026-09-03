@@ -75,6 +75,7 @@
             <span class="skill-item"><i class="devicon-github-original devicon-logo"></i> GitHub Pages</span>
             <span class="skill-item"><i class="devicon-netlify-plain devicon-logo"></i> Netlify</span>
             <span class="skill-item"><img src={MakeLogo} alt="Make" class="custom-logo logo-size"/> GNU Make</span>
+            <span class="skill-item"><i class="devicon-maven-plain devicon-logo"></i> Apache Maven</span>
             <span class="skill-item"><img src={GradleLogo} alt="Gradle" class="custom-logo"/> Gradle</span>
             <span class="skill-item"><img src={DoxygenLogo} alt="Doxygen" class="custom-logo logo-size"/> Doxygen</span>
             <span class="skill-item"><img src={PostmanLogo} alt="Postman" class="custom-logo"/> Postman</span>

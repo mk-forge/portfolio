@@ -32,4 +32,5 @@ export { default as FilmIcon } from './film.svg';
 export { default as PingPongIcon } from './ping-pong.svg';
 export { default as SquaresIntersectIcon } from './squares-intersect.svg';
 export { default as BroomIcon } from './broom.svg';
+export { default as PacmanIcon } from './pacman.svg';
 export { default as ExternalLinkIcon } from './external-link.svg';

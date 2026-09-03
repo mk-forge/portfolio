@@ -3,8 +3,8 @@
 </svelte:head>
 
 <script lang="ts">
-  import { readmeDataGenRaw, readmeElearningRaw, readmeMcRaw, readmePortfolioRaw, readmeCsfdRaw, readmeTableTennisRaw, readmeSetIntersectionRaw, readmeWindowsCleanerRaw } from '$lib/assets/readmes';
-  import { DatabaseIcon, BookOpenIcon, GemIcon, IdCardIcon, FilmIcon, PingPongIcon, SquaresIntersectIcon, BroomIcon, ExternalLinkIcon } from '$lib/assets/icons';
+  import { readmeDataGenRaw, readmeElearningRaw, readmePacXonRaw, readmePortfolioRaw, readmeMcRaw, readmeCsfdRaw, readmeTableTennisRaw, readmeSetIntersectionRaw, readmeWindowsCleanerRaw } from '$lib/assets/readmes';
+  import { DatabaseIcon, BookOpenIcon, PacmanIcon, IdCardIcon, GemIcon, FilmIcon, PingPongIcon, SquaresIntersectIcon, BroomIcon, ExternalLinkIcon } from '$lib/assets/icons';
   import { TabPanelScrollbar } from '$lib/components';
   import { marked } from 'marked';
   import '$lib/styles/projects.css';
@@ -12,8 +12,9 @@
   let tabs = [
     { label: 'Data Collection Generator', icon: DatabaseIcon, repoUrl: 'https://github.com/mk-forge/data-collection-generator', content: marked(readmeDataGenRaw) },
     { label: 'E-Learning Platform', icon: BookOpenIcon, repoUrl: 'https://github.com/mk-forge/e-learning-platform', content: marked(readmeElearningRaw) },
-    { label: 'Minecraft Gems Mod', icon: GemIcon, repoUrl: 'https://github.com/mk-forge/minecraft-gems-mod', content: marked(readmeMcRaw) },
+    { label: 'PAC-XON', icon: PacmanIcon, repoUrl: 'https://github.com/mk-forge/pac-xon', content: marked(readmePacXonRaw) },
     { label: 'Portfolio', icon: IdCardIcon, repourl: 'https://github.com/mk-forge/portfolio', content: marked(readmePortfolioRaw) },
+    { label: 'Minecraft Gems Mod', icon: GemIcon, repoUrl: 'https://github.com/mk-forge/minecraft-gems-mod', content: marked(readmeMcRaw) },
     { label: 'ČSFD Extended', icon: FilmIcon, repoUrl: 'https://github.com/mk-forge/csfd-extended', content: marked(readmeCsfdRaw) },
     { label: 'Table Tennis Manager', icon: PingPongIcon, repoUrl: 'https://github.com/mk-forge/table-tennis-manager', content: marked(readmeTableTennisRaw) },
     { label: 'Set Intersection', icon: SquaresIntersectIcon, repoUrl: 'https://github.com/mk-forge/set-intersection', content: marked(readmeSetIntersectionRaw) },
