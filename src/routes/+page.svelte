@@ -52,11 +52,6 @@
             <span class="skill-item"><img src={SQLiteLogo} alt="SQLite" class="custom-logo"/> SQLite</span>
             <span class="skill-item"><img src={PrismaLogo} alt="Prisma" class="custom-logo"/> Prisma</span>
             <span class="skill-item"><img src={OpenGLLogo} alt="OpenGL" class="custom-logo"/> OpenGL</span>
-            <span class="skill-item swig-item">
-              <img src={SwigLogoLight} alt="SWIG" class="swig-logo swig-logo-light"/>
-              <img src={SwigLogoDark} alt="SWIG" class="swig-logo swig-logo-dark"/>
-              SWIG
-            </span>
             <span class="skill-item"><img src={BootstrapLogo} alt="Bootstrap" class="custom-logo"/> Bootstrap</span>
           </div>
         </div>
@@ -78,6 +73,13 @@
             <span class="skill-item"><i class="devicon-maven-plain devicon-logo"></i> Apache Maven</span>
             <span class="skill-item"><img src={GradleLogo} alt="Gradle" class="custom-logo"/> Gradle</span>
             <span class="skill-item"><img src={DoxygenLogo} alt="Doxygen" class="custom-logo logo-size"/> Doxygen</span>
+            <span class="skill-item"><i class="devicon-sonarqube-original devicon-logo"></i> SonarQube</span>
+            <span class="skill-item"><i class="devicon-eslint-plain devicon-logo"></i> ESLint</span>
+            <span class="skill-item swig-item">
+              <img src={SwigLogoLight} alt="SWIG" class="swig-logo swig-logo-light"/>
+              <img src={SwigLogoDark} alt="SWIG" class="swig-logo swig-logo-dark"/>
+              SWIG
+            </span>
             <span class="skill-item"><img src={PostmanLogo} alt="Postman" class="custom-logo"/> Postman</span>
             <span class="skill-item"><i class="devicon-putty-plain devicon-logo"></i> PuTTY</span>
           </div>
