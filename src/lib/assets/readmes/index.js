@@ -1,4 +1,5 @@
 export { default as readmeDataGenRaw } from '$lib/assets/readmes/data-collection-generator.md?raw';
+export { default as readmeRenderForgeRaw } from '$lib/assets/readmes/render-forge.md?raw';
 export { default as readmeElearningRaw } from '$lib/assets/readmes/e-learning-platform.md?raw';
 export { default as readmePacXonRaw } from '$lib/assets/readmes/pac-xon.md?raw';
 export { default as readmePortfolioRaw } from '$lib/assets/readmes/portfolio.md?raw';

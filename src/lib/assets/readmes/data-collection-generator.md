@@ -4,11 +4,11 @@ Web application for generating data collections, query collections and statistic
 
 ## Overview
 
-This project was developed as my bachelor thesis at VŠB-TUO. It builds on an existing tool for generating data collections and queries, originally written by a previous student. I fixed performance and stability issues, added support for generating query collections from decimal data collections, and replaced the original command-line interface with a proper Blazor Server GUI.
+This project was developed as my bachelor thesis at VŠB-TUO. It builds on an existing tool for generating data collections and queries, originally written by a previous student. I fixed performance and stability issues and added support for generating query collections from decimal data collections. I also replaced the original command-line interface with a proper Blazor Server GUI.
 
 ## Performance and Stability
 
-The original tool was RAM‑only, so it worked well for small datasets but failed on larger ones. I switched to batch disk I/O, added memory mapped files, parallel sorting, and caching. This makes it a bit faster for small datasets and, more importantly, allows it to handle large collections without crashing. It trades a little raw speed for a lot of stability and scalability.
+The original tool was RAM‑only, so it worked well for small datasets but failed on larger ones. I switched to batch disk I/O, added memory mapped files, parallel sorting and caching. This makes it a bit faster for small datasets and more importantly allows it to handle large collections without crashing. It trades a little raw speed for a lot of stability and scalability.
 
 ## Tech stack
 

@@ -4,7 +4,7 @@ Personal website and developer portfolio built with SvelteKit.
 
 ## Overview
 
-I built this as my main developer portfolio, mainly to have a solid place to link from my CV and GitHub. Beyond just listing projects, I wanted the site itself to say something about how I write code, so I put extra care into details like the custom scrollbar behavior, the terminal-style heading hover effect, and the asymmetric border radius used consistently across cards and inputs.
+I built this as my main developer portfolio, mainly to have a solid place to link from my CV and GitHub. Beyond just listing projects, I wanted the site itself to say something about how I write code, so I put extra care into details like the custom scrollbar behavior, the terminal-style heading hover effect and the asymmetric border radius used consistently across cards and inputs.
 
 ## Features
 
