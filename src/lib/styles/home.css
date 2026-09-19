@@ -76,10 +76,6 @@
   object-fit: contain;
 }
 
-.skill-item .devicon-logo {
-  font-size: 1.5rem;
-}
-
 .skill-item .logo-size {
   width: 1.4rem;
   height: 1.4rem;
@@ -101,8 +97,7 @@
   height: 0.75rem;
   width: auto;
   flex-shrink: 0;
-  border-radius: 0 3px 0 3px;
-}
+} 
 
 .swig-logo-light {
   display: inline-block;
@@ -112,11 +107,35 @@
   display: none;
 }
 
+.logo {
+  height: 1.5rem;
+  width: auto !important;
+  max-height: 1.5rem;
+  flex-shrink: 0;
+}
+
+.logo-light {
+  display: inline-block;
+}
+
+.logo-dark {
+  display: none;
+}
+
+
 body.dark .swig-logo-light {
   display: none;
 }
 
 body.dark .swig-logo-dark {
+  display: inline-block;
+}
+
+body.dark .logo-light {
+  display: none;
+}
+
+body.dark .logo-dark {
   display: inline-block;
 }
 
