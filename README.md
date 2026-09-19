@@ -23,15 +23,17 @@ I built this as my main developer portfolio, mainly to have a solid place to lin
 - **Libraries:** marked, overlayscrollbars
 - **Forms:** Formspree
 - **Build:** Vite
-- **Deploy:** Netlify
+- **Deploy:** Cloudflare Workers
 
-**Website:** [mk-forge.netlify.app](https://mk-forge.netlify.app)
+## Website
+
+[Portfolio](https://portfolio.mk-forge.workers.dev/)
 
 ## Screenshots
 
-![Home page](./Screenshots/home.png)
-![Projects page](./Screenshots/projects.png)
-![Contact page](./Screenshots/contact.png)
+![Home page](https://raw.githubusercontent.com/mk-forge/portfolio/main/Screenshots/home.png)
+![Projects page](https://raw.githubusercontent.com/mk-forge/portfolio/main/Screenshots/projects.png)
+![Contact page](https://raw.githubusercontent.com/mk-forge/portfolio/main/Screenshots/contact.png)
 
 ## Installation
 
