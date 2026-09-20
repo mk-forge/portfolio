@@ -5,6 +5,7 @@
   border: 1px solid #d0d7de;
   transition: border-color 0.2s ease, background 0.2s ease;
   margin-bottom: 1.5rem;
+  position: relative;
 }
 
 .profile-card h1 {
@@ -76,11 +77,6 @@
   object-fit: contain;
 }
 
-.skill-item .logo-size {
-  width: 1.4rem;
-  height: 1.4rem;
-}
-
 .skill-item .tag {
   display: inline-block;
   font-size: 0.6rem;
@@ -93,33 +89,34 @@
   opacity: 0.6;
 }
 
-.swig-logo {
-  height: 0.75rem;
-  width: auto;
-  flex-shrink: 0;
-}
-
-.swig-logo-light {
-  display: inline-block;
-}
-
-.swig-logo-dark {
-  display: none;
-}
-
-.logo {
+.logo-wrapper {
+  position: relative;
+  width: 1.5rem;
   height: 1.5rem;
-  width: auto !important;
-  max-height: 1.5rem;
   flex-shrink: 0;
-}
-
-.logo-light {
   display: inline-block;
 }
 
-.logo-dark {
-  display: none;
+.logo-wrapper .logo-default, .logo-wrapper .logo-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: opacity 0.2s ease;
+}
+
+.logo-wrapper .logo-hover {
+  opacity: 0;
+}
+
+.skill-item:hover .logo-wrapper .logo-default {
+  opacity: 0;
+}
+
+.skill-item:hover .logo-wrapper .logo-hover {
+  opacity: 1;
 }
 
 .page.hydrated .profile-card, .page.hydrated .skills-card-wide {
@@ -144,27 +141,11 @@
 
 .skills-card-wide:hover, .profile-card:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
 .page.hydrated .skill-item {
   animation: fadeIn 0.4s ease both;
-}
-
-body.dark .swig-logo-light {
-  display: none;
-}
-
-body.dark .swig-logo-dark {
-  display: inline-block;
-}
-
-body.dark .logo-light {
-  display: none;
-}
-
-body.dark .logo-dark {
-  display: inline-block;
 }
 
 body.dark .profile-card {
@@ -189,8 +170,16 @@ body.dark .skill-item .custom-logo {
   filter: brightness(0) invert(1);
 }
 
+body.dark .skill-item:hover .logo-wrapper .logo-default {
+  opacity: 1;
+}
+
+body.dark .skill-item:hover .logo-wrapper .logo-hover {
+  opacity: 0;
+}
+
 body.dark .skills-card-wide:hover, body.dark .profile-card:hover {
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 20px rgba(139, 92, 246, 0.3);
 }
 
 @media (max-width: 768px) {
@@ -214,6 +203,12 @@ body.dark .skills-card-wide:hover, body.dark .profile-card:hover {
 
   .skill-item {
     white-space: normal;
+  }
+
+  .colorful-toggle {
+    top: 1.2rem;
+    right: 1.2rem;
+    font-size: 1.2rem;
   }
 }
 

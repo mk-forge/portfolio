@@ -2,6 +2,7 @@
   import { page } from '$app/state';
   import { onMount } from 'svelte';
   import { LightModeIcon, DarkModeIcon } from '$lib/assets/icons';
+  import ColorfulToggle from './ColorfulToggle.svelte';
 
   let isDark = $state(false);
 
@@ -27,11 +28,18 @@
   <a href="/" class:active={page.url.pathname == '/'}>Domů</a>
   <a href="/projects" class:active={page.url.pathname == '/projects'}>Projekty</a>
   <a href="/contact" class:active={page.url.pathname == '/contact'}>Kontakt</a>
-  <button class="theme-toggle" onclick={toggleTheme}>
-    {#if isDark}
-      <img src={LightModeIcon} alt="Light Mode" class="theme-logo"/>
-    {:else}
-      <img src={DarkModeIcon} alt="Dark Mode" class="theme-logo"/>
+
+  <div class="nav-buttons">
+    {#if page.url.pathname == '/'}
+      <ColorfulToggle/>
     {/if}
-  </button>
+    
+    <button class="theme-toggle" onclick={toggleTheme}>
+      {#if isDark}
+        <img src={LightModeIcon} alt="Light Mode" class="theme-logo"/>
+      {:else}
+        <img src={DarkModeIcon} alt="Dark Mode" class="theme-logo"/>
+      {/if}
+    </button>
+  </div>
 </nav>

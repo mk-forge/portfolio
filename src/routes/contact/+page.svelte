@@ -76,6 +76,5 @@
         </div>
       {/if}
     </form>
-    <hr/>
   </div>
 </div>

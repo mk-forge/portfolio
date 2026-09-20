@@ -87,34 +87,6 @@
   border-top: 1px solid #dddddd;
 }
 
-.contact-page .contact-info {
-  display: flex;
-  flex-direction: row;
-  gap: 2rem;
-  margin-bottom: 1.5rem;
-  align-items: center;
-}
-
-.contact-page .contact-info p {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  margin: 0;
-}
-
-.contact-page .contact-info a {
-  display: inline-flex;
-  align-items: center;
-  color: #1e1e1e;
-  transition: opacity 0.2s ease;
-  text-decoration: none;
-}
-
-.contact-page .contact-info a:hover {
-  opacity: 0.7;
-  text-decoration: none;
-}
-
 .page.hydrated .contact-page {
   animation: fadeInUp 0.5s ease both;
 }
@@ -148,10 +120,6 @@ body.dark .contact-page .error {
 
 body.dark .contact-page hr {
   border-top-color: #444444;
-}
-
-body.dark .contact-page .contact-info a {
-  color: #e0e0e0;
 }
 
 @keyframes fadeInUp {
