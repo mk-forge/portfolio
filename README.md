@@ -14,6 +14,7 @@ I built this as my main developer portfolio, mainly to have a solid place to lin
 - Scroll-to-top button with smooth animation
 - Contact form integrated with Formspree
 - Terminal-style headings with hover effect (`>` + blinking cursor)
+- Smooth animations and loading spinner
 - Fully responsive layout
 
 ## Tech stack
