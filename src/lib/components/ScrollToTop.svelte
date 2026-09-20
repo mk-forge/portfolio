@@ -1,5 +1,5 @@
 <script lang="ts">
-  import ArrowUpIcon from '$lib/assets/icons/arrow-up.svg?url';
+  import ArrowUpIcon from '$lib/assets/icons/ui/arrow-up.svg?url';
   import { page } from '$app/state';
   import { scrollState } from '$lib/scrollState.svelte';
   import '$lib/styles/scrolltotop.css';

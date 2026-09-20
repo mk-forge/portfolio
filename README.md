@@ -9,6 +9,7 @@ I built this as my main developer portfolio, mainly to have a solid place to lin
 ## Features
 
 - Dark/light theme toggle
+- Colorful skill logos toggle with hover preview
 - Custom scrollbar with hover expansion
 - Project browsing with Markdown rendering
 - Scroll-to-top button with smooth animation
