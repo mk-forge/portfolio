@@ -3,6 +3,7 @@
 </svelte:head>
 
 <script lang="ts">
+  import { onMount } from 'svelte';
   import "$lib/styles/contact.css";
 
   let name = $state('');
@@ -10,6 +11,11 @@
   let message = $state('');
   let sent = $state(false);
   let error = $state('');
+  let hydrated = $state(false);
+
+  onMount(() => {
+    hydrated = true;
+  });
 
   async function handleSubmit(event: Event) {
     event.preventDefault();
@@ -37,7 +43,7 @@
   }
 </script>
 
-<div class="page">
+<div class="page" class:hydrated>
   <div class="contact-page">
     <h1 class="heading"><span class="heading-prefix">></span> Kontakt</h1>
     <p class="subtitle">Napište mi zprávu a ozvu se co nejdříve.</p>

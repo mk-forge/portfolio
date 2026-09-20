@@ -115,6 +115,10 @@
   text-decoration: none;
 }
 
+.page.hydrated .contact-page {
+  animation: fadeInUp 0.5s ease both;
+}
+
 body.dark .contact-page .subtitle {
   color: #aaaaaa;
 }
@@ -148,4 +152,15 @@ body.dark .contact-page hr {
 
 body.dark .contact-page .contact-info a {
   color: #e0e0e0;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
