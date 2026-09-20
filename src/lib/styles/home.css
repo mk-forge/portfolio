@@ -36,7 +36,7 @@
   padding: 1.5rem 2rem;
   border-radius: 0 12px 0 12px;
   border: 1px solid #d0d7de;
-  transition: border-color 0.2s ease, background 0.2s ease;
+  transition: border-color 0.2s ease, background 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
@@ -97,7 +97,7 @@
   height: 0.75rem;
   width: auto;
   flex-shrink: 0;
-} 
+}
 
 .swig-logo-light {
   display: inline-block;
@@ -122,6 +122,34 @@
   display: none;
 }
 
+.page.hydrated .profile-card, .page.hydrated .skills-card-wide {
+  animation: fadeInUp 0.5s ease both;
+}
+
+.page.hydrated .skills-card-wide:nth-child(1) {
+  animation-delay: 0.05s;
+}
+
+.page.hydrated .skills-card-wide:nth-child(2) {
+  animation-delay: 0.1s;
+}
+
+.page.hydrated .skills-card-wide:nth-child(3) {
+  animation-delay: 0.15s;
+}
+
+.page.hydrated .skills-card-wide:nth-child(4) {
+  animation-delay: 0.2s;
+}
+
+.skills-card-wide:hover, .profile-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.page.hydrated .skill-item {
+  animation: fadeIn 0.4s ease both;
+}
 
 body.dark .swig-logo-light {
   display: none;
@@ -161,6 +189,10 @@ body.dark .skill-item .custom-logo {
   filter: brightness(0) invert(1);
 }
 
+body.dark .skills-card-wide:hover, body.dark .profile-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
 @media (max-width: 768px) {
   .skills-grid-2col {
     grid-template-columns: 1fr;
@@ -182,5 +214,25 @@ body.dark .skill-item .custom-logo {
 
   .skill-item {
     white-space: normal;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }

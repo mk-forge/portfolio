@@ -138,11 +138,6 @@ nav a.active::before {
   animation: blink 1s step-end infinite;
 }
 
-@keyframes blink {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0; }
-}
-
 body.dark {
   background: #1e1e1e;
   color: #c9d1d9;
@@ -195,4 +190,9 @@ body.dark .heading:hover::after {
     width: 32px;
     height: 32px;
   }
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
 }

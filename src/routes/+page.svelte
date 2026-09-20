@@ -4,10 +4,17 @@
 
 <script lang="ts">
   import { CLogo, CppLogo, CSharpLogo, GradleLogo, DoxygenLogo, PostmanLogo, BootstrapLogo, OpenGLLogo, PrismaLogo, SwigLogoLight, SwigLogoDark, ExpressLogo, BlazorLogo, PostgreSQLLogo, SQLiteLogo, NextJSLogo, IntelliJIDEALogo, BashLogo, BatchLogo, JavaScriptLogo, TypeScriptLogo, NodeJSLogo, MakeLogoLight, MakeLogoDark, ViteLogoLight, ViteLogoDark, DatabaseIcon, PythonLogo, CordovaLogo, IonicLogo, EmscriptenLogoLight, EmscriptenLogoDark, WiresharkLogo, PacketTracerLogo, VirtualBoxLogo, VmwareLogo, SvelteLogo, TampermonkeyLogo, FormspreeLogo, JavaLogo, ReactLogo, DotnetLogo, DjangoLogo, WebAssemblyLogo, VisualStudioLogo, VisualStudioCodeLogo, GitLogo, GitLabLogo, GitHubLogo, CloudflareWorkersLogo, NetlifyLogo, MavenLogo, SonarQubeLogo, ESLintLogo, PuttyLogo, WindowsLogo, AndroidLogo, LinuxLogo } from '$lib/assets/icons';
+  import { onMount } from 'svelte';
   import '$lib/styles/home.css';
+
+  let hydrated = $state(false);
+
+  onMount(() => {
+    hydrated = true;
+  });
 </script>
 
-<div class="page">
+<div class="page" class:hydrated>
   <div class="home-page">
     <div class="profile-card">
       <h1 class="heading"><span class="heading-prefix">></span> O mě</h1>
