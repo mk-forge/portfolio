@@ -1,7 +1,7 @@
-<script>
+<script lang="ts">
   import { page } from '$app/state';
   import { onMount } from 'svelte';
-  import { LightModeIcon, DarkModeIcon } from '$lib/assets/icons';
+  import { LightModeIcon, DarkModeIcon, LightModeIconOriginal, DarkModeIconOriginal } from '$lib/assets/icons';
   import ColorfulToggle from './ColorfulToggle.svelte';
 
   let isDark = $state(false);
@@ -30,15 +30,17 @@
   <a href="/contact" class:active={page.url.pathname == '/contact'}>Kontakt</a>
 
   <div class="nav-buttons">
-    {#if page.url.pathname == '/'}
+    {#if page.url.pathname == '/' || page.url.pathname == '/projects'}
       <ColorfulToggle/>
     {/if}
-    
-    <button class="theme-toggle" onclick={toggleTheme}>
+
+    <button class="theme-toggle" onclick={toggleTheme} title={isDark ? 'Přepnout na světlý režim' : 'Přepnout na tmavý režim'}>
       {#if isDark}
-        <img src={LightModeIcon} alt="Light Mode" class="theme-logo"/>
+        <img src={LightModeIcon} alt="" class="theme-logo theme-logo-mono"/>
+        <img src={LightModeIconOriginal} alt="" class="theme-logo theme-logo-color"/>
       {:else}
-        <img src={DarkModeIcon} alt="Dark Mode" class="theme-logo"/>
+        <img src={DarkModeIcon} alt="" class="theme-logo theme-logo-mono"/>
+        <img src={DarkModeIconOriginal} alt="" class="theme-logo theme-logo-color"/>
       {/if}
     </button>
   </div>

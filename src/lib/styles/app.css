@@ -105,6 +105,10 @@ nav a.active::before {
   height: 2.5rem;
 }
 
+.theme-logo-color {
+  display: none;
+}
+
 .heading {
   display: inline-block;
   position: relative;
@@ -156,6 +160,14 @@ nav a.active::before {
   opacity: 0.7;
 }
 
+body.colorful .theme-logo-mono {
+  display: none;
+}
+
+body.colorful .theme-logo-color {
+  display: block;
+}
+
 body.colorful .logo-wrapper .logo-default, .skill-item:hover .logo-wrapper .logo-default {
   opacity: 0;
 }
@@ -164,11 +176,23 @@ body.colorful .logo-wrapper .logo-hover, .skill-item:hover .logo-wrapper .logo-h
   opacity: 1;
 }
 
+body.colorful .tab-icon-mono, .tab:hover .tab-icon-mono, .tab.active .tab-icon-mono {
+  opacity: 0;
+}
+
+body.colorful .tab-icon-color, .tab:hover .tab-icon-color, .tab.active .tab-icon-color {
+  opacity: 1;
+}
+
 .nav-buttons {
   margin-left: auto;
   display: flex;
   align-items: center;
   gap: 0.5rem;
+}
+
+.palette-dark {
+  display: none;
 }
 
 body.dark {
@@ -204,16 +228,87 @@ body.dark .heading:hover::after {
   color: #a78bfa;
 }
 
-body.dark .colorful-toggle {
+body.dark .palette-light {
   display: none;
 }
 
-body.dark .logo-wrapper .logo-default {
-  opacity: 1;
+body.dark .palette-dark {
+  display: block;
 }
 
-body.dark .logo-wrapper .logo-hover {
+body.dark .skill-item:hover .logo-wrapper .logo-default {
   opacity: 0;
+}
+
+body.dark .skill-item:hover .logo-wrapper .logo-hover {
+  opacity: 1;
+  filter: brightness(1);
+}
+
+body.dark .skill-item:hover .logo-wrapper .logo-hover[alt="Bash"],
+body.dark .skill-item:hover .logo-wrapper .logo-hover[alt="Express"],
+body.dark .skill-item:hover .logo-wrapper .logo-hover[alt="Django"],
+body.dark .skill-item:hover .logo-wrapper .logo-hover[alt="Prisma"],
+body.dark .skill-item:hover .logo-wrapper .logo-hover[alt="Cordova"],
+body.dark .skill-item:hover .logo-wrapper .logo-hover[alt="Tampermonkey"],
+body.dark .skill-item:hover .logo-wrapper .logo-hover[alt="GitHub"],
+body.dark .skill-item:hover .logo-wrapper .logo-hover[alt="Gradle"] {
+  filter: brightness(0) invert(1);
+}
+
+body.dark .tab:hover .tab-icon-mono, body.dark .tab.active .tab-icon-mono {
+  opacity: 0;
+}
+
+body.dark .tab:hover .tab-icon-color, body.dark .tab.active .tab-icon-color {
+  opacity: 1;
+  filter: brightness(1);
+}
+
+body.dark .theme-logo-mono {
+  filter: brightness(0) invert(1);
+}
+
+body.dark .theme-logo-color {
+  filter: none;
+}
+
+body.dark.colorful .theme-logo-mono {
+  display: none;
+}
+
+body.dark.colorful .theme-logo-color {
+  display: block;
+  filter: none;
+}
+
+body.dark.colorful .logo-wrapper .logo-default {
+  opacity: 0;
+}
+
+body.dark.colorful .logo-wrapper .logo-hover {
+  opacity: 1;
+  filter: brightness(1);
+}
+
+body.dark.colorful .logo-wrapper .logo-hover[alt="Bash"],
+body.dark.colorful .logo-wrapper .logo-hover[alt="Express"],
+body.dark.colorful .logo-wrapper .logo-hover[alt="Django"],
+body.dark.colorful .logo-wrapper .logo-hover[alt="Prisma"],
+body.dark.colorful .logo-wrapper .logo-hover[alt="Cordova"],
+body.dark.colorful .logo-wrapper .logo-hover[alt="Tampermonkey"],
+body.dark.colorful .logo-wrapper .logo-hover[alt="GitHub"],
+body.dark.colorful .logo-wrapper .logo-hover[alt="Gradle"] {
+  filter: brightness(0) invert(1);
+}
+
+body.dark.colorful .tab-icon-mono {
+  opacity: 0;
+}
+
+body.dark.colorful .tab-icon-color {
+  opacity: 1;
+  filter: brightness(1);
 }
 
 @media (max-width: 768px) {

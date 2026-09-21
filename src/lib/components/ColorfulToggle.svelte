@@ -1,6 +1,6 @@
 <script lang="ts">
   import { onMount } from 'svelte';
-  import { PaletteIcon } from '$lib/assets/icons';
+  import { PaletteIconLight, PaletteIconDark, PaletteIconOriginal } from '$lib/assets/icons';
 
   let colorful = $state(false);
 
@@ -16,6 +16,11 @@
   }
 </script>
 
-<button class="colorful-toggle" onclick={toggleColorful} title="Barevné ikony">
-  <img src={PaletteIcon} alt="Barevné ikony" class="theme-logo"/>
+<button class="colorful-toggle" onclick={toggleColorful} title={colorful ? 'Přepnout na monochromatické ikony' : 'Přepnout na barevné ikony'}>
+  {#if colorful}
+    <img src={PaletteIconOriginal} alt="" class="theme-logo"/>
+  {:else}
+    <img src={PaletteIconLight} alt="" class="theme-logo palette-light"/>
+    <img src={PaletteIconDark} alt="" class="theme-logo palette-dark"/>
+  {/if}
 </button>
