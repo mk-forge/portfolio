@@ -54,6 +54,11 @@
   opacity: 0.8;
 }
 
+.contact-page button:focus-visible {
+  outline: 2px solid #1e1e1e;
+  outline-offset: 2px;
+}
+
 .contact-page .success, .contact-page .error {
   display: flex;
   align-items: center;
@@ -104,6 +109,11 @@ body.dark .contact-page input, body.dark .contact-page textarea {
 body.dark .contact-page button {
   background: #f0f0f0;
   color: #1e1e1e;
+}
+
+body.dark .contact-page button:focus-visible {
+  outline: 2px solid #ffffff;
+  outline-offset: 2px;
 }
 
 body.dark .contact-page .success {

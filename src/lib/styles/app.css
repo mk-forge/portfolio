@@ -1,3 +1,8 @@
+:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+
 body {
   background: #ffffff;
   color: #1e1e2e;
@@ -95,11 +100,6 @@ nav a.active::before {
   opacity: 0.7;
 }
 
-.theme-toggle:focus {
-  outline: none;
-  box-shadow: none;
-}
-
 .theme-logo {
   width: 2.5rem;
   height: 2.5rem;
@@ -176,11 +176,11 @@ body.colorful .logo-wrapper .logo-hover, .skill-item:hover .logo-wrapper .logo-h
   opacity: 1;
 }
 
-body.colorful .tab-icon-mono, .tab:hover .tab-icon-mono, .tab.active .tab-icon-mono {
+body.colorful .tab-icon-mono, .tab:hover .tab-icon-mono {
   opacity: 0;
 }
 
-body.colorful .tab-icon-color, .tab:hover .tab-icon-color, .tab.active .tab-icon-color {
+body.colorful .tab-icon-color, .tab:hover .tab-icon-color {
   opacity: 1;
 }
 
@@ -256,11 +256,11 @@ body.dark .skill-item:hover .logo-wrapper .logo-hover[alt="Gradle"] {
   filter: brightness(0) invert(1);
 }
 
-body.dark .tab:hover .tab-icon-mono, body.dark .tab.active .tab-icon-mono {
+body.dark .tab:hover .tab-icon-mono {
   opacity: 0;
 }
 
-body.dark .tab:hover .tab-icon-color, body.dark .tab.active .tab-icon-color {
+body.dark .tab:hover .tab-icon-color {
   opacity: 1;
   filter: brightness(1);
 }
