@@ -59,7 +59,6 @@
             <span class="skill-item"><span class="logo-wrapper"><img src={SQLiteLogo} alt="SQLite" class="custom-logo logo-default"/><img src={SQLiteLogoOriginal} alt="SQLite" class="custom-logo logo-hover"/></span> SQLite</span>
             <span class="skill-item"><span class="logo-wrapper"><img src={PrismaLogo} alt="Prisma" class="custom-logo logo-default"/><img src={PrismaLogoOriginal} alt="Prisma" class="custom-logo logo-hover"/></span> Prisma</span>
             <span class="skill-item"><span class="logo-wrapper"><img src={OpenGLLogo} alt="OpenGL" class="custom-logo logo-default"/><img src={OpenGLLogoOriginal} alt="OpenGL" class="custom-logo logo-hover"/></span> OpenGL</span>
-            <span class="skill-item"><span class="logo-wrapper"><img src={WebAssemblyLogo} alt="WebAssembly" class="custom-logo logo-default"/><img src={WebAssemblyLogoOriginal} alt="WebAssembly" class="custom-logo logo-hover"/></span> WebAssembly</span>
             <span class="skill-item"><span class="logo-wrapper"><img src={BootstrapLogo} alt="Bootstrap" class="custom-logo logo-default"/><img src={BootstrapLogoOriginal} alt="Bootstrap" class="custom-logo logo-hover"/></span> Bootstrap</span>
             <span class="skill-item"><span class="logo-wrapper"><img src={IonicLogo} alt="Ionic" class="custom-logo logo-default"/><img src={IonicLogoOriginal} alt="Ionic" class="custom-logo logo-hover"/></span> Ionic</span>
             <span class="skill-item"><span class="logo-wrapper"><img src={CordovaLogo} alt="Cordova" class="custom-logo logo-default"/><img src={CordovaLogoOriginal} alt="Cordova" class="custom-logo logo-hover"/></span> Cordova</span>
@@ -74,12 +73,9 @@
             <span class="skill-item"><span class="logo-wrapper"><img src={VisualStudioLogo} alt="Visual Studio" class="custom-logo logo-default"/><img src={VisualStudioLogoOriginal} alt="Visual Studio" class="custom-logo logo-hover"/></span> Visual Studio</span>
             <span class="skill-item"><span class="logo-wrapper"><img src={VisualStudioCodeLogo} alt="Visual Studio Code" class="custom-logo logo-default"/><img src={VisualStudioCodeLogoOriginal} alt="Visual Studio Code" class="custom-logo logo-hover"/></span> Visual Studio Code</span>
             <span class="skill-item"><span class="logo-wrapper"><img src={IntelliJIDEALogo} alt="IntelliJ IDEA" class="custom-logo logo-default"/><img src={IntelliJIDEALogoOriginal} alt="IntelliJ IDEA" class="custom-logo logo-hover"/></span> IntelliJ IDEA</span>
-            <span class="skill-item"><span class="logo-wrapper"><img src={TampermonkeyLogo} alt="Tampermonkey" class="custom-logo logo-default"/><img src={TampermonkeyLogoOriginal} alt="Tampermonkey" class="custom-logo logo-hover"/></span> Tampermonkey</span>
             <span class="skill-item"><span class="logo-wrapper"><img src={GitLogo} alt="Git" class="custom-logo logo-default"/><img src={GitLogoOriginal} alt="Git" class="custom-logo logo-hover"/></span> Git</span>
             <span class="skill-item"><span class="logo-wrapper"><img src={GitLabLogo} alt="GitLab" class="custom-logo logo-default"/><img src={GitLabLogoOriginal} alt="GitLab" class="custom-logo logo-hover"/></span> GitLab</span>
             <span class="skill-item"><span class="logo-wrapper"><img src={GitHubLogo} alt="GitHub" class="custom-logo logo-default"/><img src={GitHubLogoOriginal} alt="GitHub" class="custom-logo logo-hover"/></span> GitHub</span>
-            <span class="skill-item"><span class="logo-wrapper"><img src={CloudflareWorkersLogo} alt="Cloudflare Workers" class="custom-logo logo-default"/><img src={CloudflareWorkersLogoOriginal} alt="Cloudflare Workers" class="custom-logo logo-hover"/></span> Cloudflare Workers</span>
-            <span class="skill-item"><span class="logo-wrapper"><img src={NetlifyLogo} alt="Netlify" class="custom-logo logo-default"/><img src={NetlifyLogoOriginal} alt="Netlify" class="custom-logo logo-hover"/></span> Netlify</span>
             <span class="skill-item"><img src={MakeLogo} alt="Make" class="custom-logo logo-default"/> Make</span>
             <span class="skill-item"><span class="logo-wrapper"><img src={ViteLogo} alt="Vite" class="custom-logo logo-default"/><img src={ViteLogoOriginal} alt="Vite" class="custom-logo logo-hover"/></span> Vite</span>
             <span class="skill-item"><span class="logo-wrapper"><img src={MavenLogo} alt="Maven" class="custom-logo logo-default"/><img src={MavenLogoOriginal} alt="Maven" class="custom-logo logo-hover"/></span> Maven</span>
@@ -94,8 +90,6 @@
             <span class="skill-item"><span class="logo-wrapper"><img src={PuttyLogo} alt="PuTTY" class="custom-logo logo-default"/><img src={PuttyLogoOriginal} alt="PuTTY" class="custom-logo logo-hover"/></span> PuTTY</span>
             <span class="skill-item"><span class="logo-wrapper"><img src={WiresharkLogo} alt="Wireshark" class="custom-logo logo-default"/><img src={WiresharkLogoOriginal} alt="Wireshark" class="custom-logo logo-hover"/></span> Wireshark</span>
             <span class="skill-item"><span class="logo-wrapper"><img src={PacketTracerLogo} alt="Packet Tracer" class="custom-logo logo-default"/><img src={PacketTracerLogoOriginal} alt="Packet Tracer" class="custom-logo logo-hover"/></span> Packet Tracer</span>
-            <span class="skill-item"><span class="logo-wrapper"><img src={VirtualBoxLogo} alt="VirtualBox" class="custom-logo logo-default"/><img src={VirtualBoxLogoOriginal} alt="VirtualBox" class="custom-logo logo-hover"/></span> VirtualBox</span>
-            <span class="skill-item"><span class="logo-wrapper"><img src={VmwareLogo} alt="VMware" class="custom-logo logo-default"/><img src={VmwareLogoOriginal} alt="VMware" class="custom-logo logo-hover"/></span> VMware</span>
           </div>
         </div>
       </div>
@@ -104,9 +98,15 @@
         <div class="skills-section">
           <h3 class="heading"><span class="heading-prefix">></span> Operační systémy & platformy</h3>
           <div class="skill-items">
-            <span class="skill-item"><span class="logo-wrapper"><img src={WindowsLogo} alt="Windows" class="custom-logo logo-default"/><img src={WindowsLogoOriginal} alt="Windows" class="custom-logo logo-hover"/></span> Windows <span class="tag">každodenní</span></span>
-            <span class="skill-item"><span class="logo-wrapper"><img src={AndroidLogo} alt="Android" class="custom-logo logo-default"/><img src={AndroidLogoOriginal} alt="Android" class="custom-logo logo-hover"/></span> Android <span class="tag">každodenní</span></span>
-            <span class="skill-item"><span class="logo-wrapper"><img src={LinuxLogo} alt="Linux" class="custom-logo logo-default"/><img src={LinuxLogoOriginal} alt="Linux" class="custom-logo logo-hover"/></span> Linux <span class="tag">občasné</span></span>
+            <span class="skill-item"><span class="logo-wrapper"><img src={WindowsLogo} alt="Windows" class="custom-logo logo-default"/><img src={WindowsLogoOriginal} alt="Windows" class="custom-logo logo-hover"/></span>Windows</span>
+            <span class="skill-item"><span class="logo-wrapper"><img src={LinuxLogo} alt="Linux" class="custom-logo logo-default"/><img src={LinuxLogoOriginal} alt="Linux" class="custom-logo logo-hover"/></span> Linux</span>
+            <span class="skill-item"><span class="logo-wrapper"><img src={AndroidLogo} alt="Android" class="custom-logo logo-default"/><img src={AndroidLogoOriginal} alt="Android" class="custom-logo logo-hover"/></span> Android</span>
+            <span class="skill-item"><span class="logo-wrapper"><img src={CloudflareWorkersLogo} alt="Cloudflare Workers" class="custom-logo logo-default"/><img src={CloudflareWorkersLogoOriginal} alt="Cloudflare Workers" class="custom-logo logo-hover"/></span> Cloudflare Workers</span>
+            <span class="skill-item"><span class="logo-wrapper"><img src={NetlifyLogo} alt="Netlify" class="custom-logo logo-default"/><img src={NetlifyLogoOriginal} alt="Netlify" class="custom-logo logo-hover"/></span> Netlify</span>
+            <span class="skill-item"><span class="logo-wrapper"><img src={WebAssemblyLogo} alt="WebAssembly" class="custom-logo logo-default"/><img src={WebAssemblyLogoOriginal} alt="WebAssembly" class="custom-logo logo-hover"/></span> WebAssembly</span>
+            <span class="skill-item"><span class="logo-wrapper"><img src={TampermonkeyLogo} alt="Tampermonkey" class="custom-logo logo-default"/><img src={TampermonkeyLogoOriginal} alt="Tampermonkey" class="custom-logo logo-hover"/></span> Tampermonkey</span>
+            <span class="skill-item"><span class="logo-wrapper"><img src={VirtualBoxLogo} alt="VirtualBox" class="custom-logo logo-default"/><img src={VirtualBoxLogoOriginal} alt="VirtualBox" class="custom-logo logo-hover"/></span> VirtualBox</span>
+            <span class="skill-item"><span class="logo-wrapper"><img src={VmwareLogo} alt="VMware" class="custom-logo logo-default"/><img src={VmwareLogoOriginal} alt="VMware" class="custom-logo logo-hover"/></span> VMware</span>
           </div>
         </div>
       </div>
