@@ -81,6 +81,9 @@ export { default as AndroidLogo } from './skills/android.svg';
 export { default as LinuxLogo } from './skills/linux.svg';
 export { default as MakeLogo } from './skills/make.svg';
 export { default as ViteLogo } from './skills/vite.svg';
+export { default as RenderLogo } from './skills/render.svg';
+export { default as NeonLogo } from './skills/neon.svg';
+export { default as DockerLogo } from './skills/docker.svg';
 
 export { default as CLogoOriginal } from './skills/c-original.svg';
 export { default as CppLogoOriginal } from './skills/cpp-original.svg';
@@ -134,3 +137,5 @@ export { default as LinuxLogoOriginal } from './skills/linux-original.svg';
 export { default as MakeLogoOriginal } from './skills/make-original.svg';
 export { default as ViteLogoOriginal } from './skills/vite-original.svg';
 export { default as EmscriptenLogoOriginal } from './skills/emscripten-original.svg';
+export { default as NeonLogoOriginal } from './skills/neon-original.svg';
+export { default as DockerLogoOriginal } from './skills/docker-original.svg';
