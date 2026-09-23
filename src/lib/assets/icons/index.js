@@ -57,7 +57,7 @@ export { default as WiresharkLogo } from './skills/wireshark.svg';
 export { default as PacketTracerLogo } from './skills/packettracer.svg';
 export { default as VirtualBoxLogo } from './skills/virtualbox.svg';
 export { default as VmwareLogo } from './skills/vmware.svg';
-export { default as SvelteLogo } from './skills/svelte.svg';
+export { default as SvelteKitLogo } from './skills/sveltekit.svg';
 export { default as TampermonkeyLogo } from './skills/tampermonkey.svg';
 export { default as FormspreeLogo } from './skills/formspree.svg';
 export { default as JavaLogo } from './skills/java.svg';
@@ -112,7 +112,7 @@ export { default as WiresharkLogoOriginal } from './skills/wireshark-original.pn
 export { default as PacketTracerLogoOriginal } from './skills/packettracer-original.svg';
 export { default as VirtualBoxLogoOriginal } from './skills/virtualbox-original.svg';
 export { default as VmwareLogoOriginal } from './skills/vmware-original.svg';
-export { default as SvelteLogoOriginal } from './skills/svelte-original.svg';
+export { default as SvelteKitLogoOriginal } from './skills/sveltekit-original.svg';
 export { default as TampermonkeyLogoOriginal } from './skills/tampermonkey-original.svg';
 export { default as FormspreeLogoOriginal } from './skills/formspree-original.svg';
 export { default as JavaLogoOriginal } from './skills/java-original.svg';

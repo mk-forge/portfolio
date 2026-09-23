@@ -1,13 +1,11 @@
 .footer {
-    padding: 1.5rem 1.5rem 1.5rem;
+    padding: 1.5rem;
     border-top: 1px solid #d0d7de;
     transition: border-color 0.2s ease;
     margin-top: 1.5rem;
 }
 
 .footer-content {
-    max-width: 1200px;
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
