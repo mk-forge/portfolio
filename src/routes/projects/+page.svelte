@@ -3,23 +3,24 @@
 </svelte:head>
 
 <script lang="ts">
-  import { DatabaseIcon, CubeIcon, PacmanIcon, BookOpenIcon, SquaresIntersectIcon, GemIcon, FilmIcon, PingPongIcon, IdCardIcon, BroomIcon, ExternalLinkIcon, DatabaseIconOriginal, CubeIconOriginal, PacmanIconOriginal, BookOpenIconOriginal, SquaresIntersectIconOriginal, GemIconOriginal, FilmIconOriginal, PingPongIconOriginal, IdCardIconOriginal, BroomIconOriginal } from '$lib/assets/icons';
+  import { DatabaseIcon, CubeIcon, PacmanIcon, BookOpenIcon, SquaresIntersectIcon, GemIcon, FilmIcon, PingPongIcon, IdCardIcon, ActivityIcon, BroomIcon, ExternalLinkIcon, DatabaseIconOriginal, CubeIconOriginal, PacmanIconOriginal, BookOpenIconOriginal, SquaresIntersectIconOriginal, GemIconOriginal, FilmIconOriginal, PingPongIconOriginal, IdCardIconOriginal, ActivityIconOriginal, BroomIconOriginal } from '$lib/assets/icons';
   import { TabPanelScrollbar } from '$lib/components';
   import { marked } from 'marked';
   import { onMount } from 'svelte';
   import '$lib/styles/projects.css';
 
   let projects = [
-    { label: 'Data Collection Generator', icon: DatabaseIcon, iconOriginal: DatabaseIconOriginal, repoUrl: 'https://github.com/mk-forge/data-collection-generator', readmeUrl: 'https://raw.githubusercontent.com/mk-forge/data-collection-generator/main/README.md' },
-    { label: 'RenderForge', icon: CubeIcon, iconOriginal: CubeIconOriginal, repoUrl: 'https://github.com/mk-forge/render-forge', readmeUrl: 'https://raw.githubusercontent.com/mk-forge/render-forge/main/README.md' },
-    { label: 'PAC-XON', icon: PacmanIcon, iconOriginal: PacmanIconOriginal, repoUrl: 'https://github.com/mk-forge/pac-xon', readmeUrl: 'https://raw.githubusercontent.com/mk-forge/pac-xon/main/README.md' },
-    { label: 'E-Learning Platform', icon: BookOpenIcon, iconOriginal: BookOpenIconOriginal, repoUrl: 'https://github.com/mk-forge/e-learning-platform', readmeUrl: 'https://raw.githubusercontent.com/mk-forge/e-learning-platform/main/README.md' },
-    { label: 'Set Intersection', icon: SquaresIntersectIcon, iconOriginal: SquaresIntersectIconOriginal, repoUrl: 'https://github.com/mk-forge/set-intersection', readmeUrl: 'https://raw.githubusercontent.com/mk-forge/set-intersection/main/README.md' },
-    { label: 'Minecraft Gems Mod', icon: GemIcon, iconOriginal: GemIconOriginal, repoUrl: 'https://github.com/mk-forge/minecraft-gems-mod', readmeUrl: 'https://raw.githubusercontent.com/mk-forge/minecraft-gems-mod/main/README.md' },
-    { label: 'ČSFD Extended', icon: FilmIcon, iconOriginal: FilmIconOriginal, repoUrl: 'https://github.com/mk-forge/csfd-extended', readmeUrl: 'https://raw.githubusercontent.com/mk-forge/csfd-extended/main/README.md' },
-    { label: 'Table Tennis Manager', icon: PingPongIcon, iconOriginal: PingPongIconOriginal, repoUrl: 'https://github.com/mk-forge/table-tennis-manager', readmeUrl: 'https://raw.githubusercontent.com/mk-forge/table-tennis-manager/main/README.md' },
-    { label: 'Portfolio', icon: IdCardIcon, iconOriginal: IdCardIconOriginal, repoUrl: 'https://github.com/mk-forge/portfolio', readmeUrl: 'https://raw.githubusercontent.com/mk-forge/portfolio/main/README.md' },
-    { label: 'Windows Process Cleaner', icon: BroomIcon, iconOriginal: BroomIconOriginal, repoUrl: 'https://github.com/mk-forge/windows-process-cleaner', readmeUrl: 'https://raw.githubusercontent.com/mk-forge/windows-process-cleaner/main/README.md' }
+    { label: 'Data Collection Generator', icon: DatabaseIcon, iconOriginal: DatabaseIconOriginal, repoUrl: 'https://github.com/mk-forge/data-collection-generator', readmeUrl: 'https://raw.githubusercontent.com/mk-forge/data-collection-generator/main/README.md', isFork: false },
+    { label: 'RenderForge', icon: CubeIcon, iconOriginal: CubeIconOriginal, repoUrl: 'https://github.com/mk-forge/render-forge', readmeUrl: 'https://raw.githubusercontent.com/mk-forge/render-forge/main/README.md', isFork: false },
+    { label: 'PAC-XON', icon: PacmanIcon, iconOriginal: PacmanIconOriginal, repoUrl: 'https://github.com/mk-forge/pac-xon', readmeUrl: 'https://raw.githubusercontent.com/mk-forge/pac-xon/main/README.md', isFork: false },
+    { label: 'E-Learning Platform', icon: BookOpenIcon, iconOriginal: BookOpenIconOriginal, repoUrl: 'https://github.com/mk-forge/e-learning-platform', readmeUrl: 'https://raw.githubusercontent.com/mk-forge/e-learning-platform/main/README.md', isFork: false },
+    { label: 'Table Tennis Manager', icon: PingPongIcon, iconOriginal: PingPongIconOriginal, repoUrl: 'https://github.com/mk-forge/table-tennis-manager', readmeUrl: 'https://raw.githubusercontent.com/mk-forge/table-tennis-manager/main/README.md', isFork: false },
+    { label: 'Portfolio', icon: IdCardIcon, iconOriginal: IdCardIconOriginal, repoUrl: 'https://github.com/mk-forge/portfolio', readmeUrl: 'https://raw.githubusercontent.com/mk-forge/portfolio/main/README.md', isFork: false },
+    { label: 'Set Intersection', icon: SquaresIntersectIcon, iconOriginal: SquaresIntersectIconOriginal, repoUrl: 'https://github.com/mk-forge/set-intersection', readmeUrl: 'https://raw.githubusercontent.com/mk-forge/set-intersection/main/README.md', isFork: false },
+    { label: 'Minecraft Gems Mod', icon: GemIcon, iconOriginal: GemIconOriginal, repoUrl: 'https://github.com/mk-forge/minecraft-gems-mod', readmeUrl: 'https://raw.githubusercontent.com/mk-forge/minecraft-gems-mod/main/README.md', isFork: false },
+    { label: 'ČSFD Extended', icon: FilmIcon, iconOriginal: FilmIconOriginal, repoUrl: 'https://github.com/mk-forge/csfd-extended', readmeUrl: 'https://raw.githubusercontent.com/mk-forge/csfd-extended/main/README.md', isFork: false },
+    { label: 'Windows Process Cleaner', icon: BroomIcon, iconOriginal: BroomIconOriginal, repoUrl: 'https://github.com/mk-forge/windows-process-cleaner', readmeUrl: 'https://raw.githubusercontent.com/mk-forge/windows-process-cleaner/main/README.md', isFork: false },
+    { label: 'Status Page', icon: ActivityIcon, iconOriginal: ActivityIconOriginal, repoUrl: 'https://github.com/mk-forge/status-page', readmeUrl: 'https://raw.githubusercontent.com/mk-forge/status-page/main/README.md', isFork: true }
   ];
 
   let activeTab = $state(0);
@@ -83,7 +84,7 @@
               <img src={project.icon} alt="" class="tab-icon tab-icon-mono"/>
               <img src={project.iconOriginal} alt="" class="tab-icon tab-icon-color"/>
             </span>
-            <span>{project.label}</span>
+            <span>{project.label} {#if project.isFork}<span class="tag">FORK</span>{/if}</span>
             <a href={project.repoUrl} target="_blank" rel="noopener noreferrer" class="repo-link-btn" title="Otevřít repozitář" onclick={(e) => e.stopPropagation()} tabindex="-1">
               <img src={ExternalLinkIcon} alt="" class="tab-icon repo-icon"/>
             </a>

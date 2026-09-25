@@ -195,6 +195,18 @@ body.colorful .tab-icon-color, .tab:hover .tab-icon-color {
   display: none;
 }
 
+.tag {
+  display: inline-block;
+  font-size: 0.6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  background: rgba(0, 0, 0, 0.07);
+  padding: 0.05rem 0.5rem;
+  border-radius: 0 4px 0 4px;
+  opacity: 0.6;
+}
+
 body.dark {
   background: #1e1e1e;
   color: #c9d1d9;
@@ -234,6 +246,10 @@ body.dark .palette-light {
 
 body.dark .palette-dark {
   display: block;
+}
+
+body.dark .tag {
+  background: rgba(255, 255, 255, 0.07);
 }
 
 body.dark .skill-item:hover .logo-wrapper .logo-default {

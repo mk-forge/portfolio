@@ -3,7 +3,7 @@
 </svelte:head>
 
 <script lang="ts">
-  import { CLogo, CppLogo, CSharpLogo, GradleLogo, DoxygenLogo, PostmanLogo, BootstrapLogo, OpenGLLogo, PrismaLogo, SwigLogo, ExpressLogo, BlazorLogo, PostgreSQLLogo, SQLiteLogo, NextJSLogo, IntelliJIDEALogo, BashLogo, BatchLogo, JavaScriptLogo, TypeScriptLogo, NodeJSLogo, MakeLogo, ViteLogo, DatabaseIcon, PythonLogo, CordovaLogo, IonicLogo, EmscriptenLogo, WiresharkLogo, PacketTracerLogo, VirtualBoxLogo, VmwareLogo, SvelteKitLogo, TampermonkeyLogo, FormspreeLogo, JavaLogo, ReactLogo, DotnetLogo, DjangoLogo, WebAssemblyLogo, VisualStudioLogo, VisualStudioCodeLogo, GitLogo, GitLabLogo, GitHubLogo, CloudflareWorkersLogo, NetlifyLogo, MavenLogo, SonarQubeLogo, ESLintLogo, PuttyLogo, WindowsLogo, AndroidLogo, LinuxLogo, RenderLogo, NeonLogo, DockerLogo, CLogoOriginal, CppLogoOriginal, CSharpLogoOriginal, GradleLogoOriginal, DoxygenLogoOriginal, PostmanLogoOriginal, BootstrapLogoOriginal, OpenGLLogoOriginal, PrismaLogoOriginal, ExpressLogoOriginal, BlazorLogoOriginal, PostgreSQLLogoOriginal, SQLiteLogoOriginal, NextJSLogoOriginal, IntelliJIDEALogoOriginal, BashLogoOriginal, BatchLogoOriginal, JavaScriptLogoOriginal, TypeScriptLogoOriginal, NodeJSLogoOriginal, PythonLogoOriginal, CordovaLogoOriginal, IonicLogoOriginal, WiresharkLogoOriginal, PacketTracerLogoOriginal, VirtualBoxLogoOriginal, VmwareLogoOriginal, SvelteKitLogoOriginal, TampermonkeyLogoOriginal, FormspreeLogoOriginal, JavaLogoOriginal, ReactLogoOriginal, DotnetLogoOriginal, DjangoLogoOriginal, WebAssemblyLogoOriginal, VisualStudioLogoOriginal, VisualStudioCodeLogoOriginal, GitLogoOriginal, GitLabLogoOriginal, GitHubLogoOriginal, CloudflareWorkersLogoOriginal, NetlifyLogoOriginal, MavenLogoOriginal, SonarQubeLogoOriginal, ESLintLogoOriginal, PuttyLogoOriginal, WindowsLogoOriginal, AndroidLogoOriginal, LinuxLogoOriginal, ViteLogoOriginal, DatabaseIconOriginal, EmscriptenLogoOriginal, NeonLogoOriginal, DockerLogoOriginal } from '$lib/assets/icons';
+  import { CLogo, CppLogo, CSharpLogo, GradleLogo, DoxygenLogo, PostmanLogo, BootstrapLogo, OpenGLLogo, PrismaLogo, SwigLogo, ExpressLogo, BlazorLogo, PostgreSQLLogo, SQLiteLogo, NextJSLogo, IntelliJIDEALogo, BashLogo, BatchLogo, JavaScriptLogo, TypeScriptLogo, NodeJSLogo, GNUMakeLogo, ViteLogo, DatabaseIcon, PythonLogo, CordovaLogo, IonicLogo, EmscriptenLogo, WiresharkLogo, PacketTracerLogo, VirtualBoxLogo, VmwareLogo, SvelteKitLogo, TampermonkeyLogo, FormspreeLogo, JavaLogo, ReactLogo, DotnetLogo, DjangoLogo, WebAssemblyLogo, VisualStudioLogo, VisualStudioCodeLogo, GitLogo, GitLabLogo, GitHubLogo, CloudflareWorkersLogo, NetlifyLogo, MavenLogo, SonarQubeLogo, ESLintLogo, PuttyLogo, WindowsLogo, AndroidLogo, LinuxLogo, RenderLogo, NeonLogo, DockerLogo, MakeLogo, NtfyLogo, CLogoOriginal, CppLogoOriginal, CSharpLogoOriginal, GradleLogoOriginal, DoxygenLogoOriginal, PostmanLogoOriginal, BootstrapLogoOriginal, OpenGLLogoOriginal, PrismaLogoOriginal, ExpressLogoOriginal, BlazorLogoOriginal, PostgreSQLLogoOriginal, SQLiteLogoOriginal, NextJSLogoOriginal, IntelliJIDEALogoOriginal, BashLogoOriginal, BatchLogoOriginal, JavaScriptLogoOriginal, TypeScriptLogoOriginal, NodeJSLogoOriginal, PythonLogoOriginal, CordovaLogoOriginal, IonicLogoOriginal, WiresharkLogoOriginal, PacketTracerLogoOriginal, VirtualBoxLogoOriginal, VmwareLogoOriginal, SvelteKitLogoOriginal, TampermonkeyLogoOriginal, FormspreeLogoOriginal, JavaLogoOriginal, ReactLogoOriginal, DotnetLogoOriginal, DjangoLogoOriginal, WebAssemblyLogoOriginal, VisualStudioLogoOriginal, VisualStudioCodeLogoOriginal, GitLogoOriginal, GitLabLogoOriginal, GitHubLogoOriginal, CloudflareWorkersLogoOriginal, NetlifyLogoOriginal, MavenLogoOriginal, SonarQubeLogoOriginal, ESLintLogoOriginal, PuttyLogoOriginal, WindowsLogoOriginal, AndroidLogoOriginal, LinuxLogoOriginal, ViteLogoOriginal, DatabaseIconOriginal, EmscriptenLogoOriginal, NeonLogoOriginal, DockerLogoOriginal, MakeLogoOriginal, NtfyLogoOriginal } from '$lib/assets/icons';
   import { onMount } from 'svelte';
   import '$lib/styles/home.css';
 
@@ -17,10 +17,16 @@
 <div class="page" class:hydrated>
   <div class="home-page">
     <div class="profile-card">
-      <h1 class="heading"><span class="heading-prefix">></span> O mě</h1>
-      <p class="subtitle">
-        Jsem vývojář s přesahem od systémového programování v C++ po webové technologie jako SvelteKit a React. Baví mě řešit zajímavé problémy, jsem absolventem VŠB-TUO (Bc.). Aktuálně hledám práci, kde bych mohl dále růst a přinášet reálnou hodnotu.
-      </p>
+      <div class="profile-text">
+        <h1 class="heading"><span class="heading-prefix">></span> O mě</h1>
+        <p class="subtitle">
+          Jsem vývojář s přesahem od systémového programování v C++ po webové technologie jako SvelteKit a React. Baví mě řešit zajímavé problémy, jsem absolventem VŠB-TUO (Bc.). Aktuálně hledám práci, kde bych mohl dále růst a přinášet reálnou hodnotu.
+        </p>
+      </div>
+      <div class="stats">
+        <img class="stats-dark" src="https://github-readme-stats.shion.dev/api/top-langs/?username=mk-forge&layout=donut&langs_count=6&hide=html,css,swig,batchfile,makefile&theme=default&hide_title=true" alt="Top Languages"/>
+        <img class="stats-light" src="https://github-readme-stats.shion.dev/api/top-langs/?username=mk-forge&layout=donut&langs_count=6&hide=html,css,swig,batchfile,makefile&theme=one_dark_pro&hide_title=true" alt="Top Languages"/>
+      </div>
     </div>
 
     <div class="skills-grid-2col">
@@ -76,7 +82,7 @@
             <span class="skill-item"><span class="logo-wrapper"><img src={GitLogo} alt="Git" class="custom-logo logo-default"/><img src={GitLogoOriginal} alt="Git" class="custom-logo logo-hover"/></span> Git</span>
             <span class="skill-item"><span class="logo-wrapper"><img src={GitLabLogo} alt="GitLab" class="custom-logo logo-default"/><img src={GitLabLogoOriginal} alt="GitLab" class="custom-logo logo-hover"/></span> GitLab</span>
             <span class="skill-item"><span class="logo-wrapper"><img src={GitHubLogo} alt="GitHub" class="custom-logo logo-default"/><img src={GitHubLogoOriginal} alt="GitHub" class="custom-logo logo-hover"/></span> GitHub</span>
-            <span class="skill-item"><img src={MakeLogo} alt="Make" class="custom-logo logo-default"/> Make</span>
+            <span class="skill-item"><img src={GNUMakeLogo} alt="Make" class="custom-logo logo-default"/> GNU Make</span>
             <span class="skill-item"><span class="logo-wrapper"><img src={ViteLogo} alt="Vite" class="custom-logo logo-default"/><img src={ViteLogoOriginal} alt="Vite" class="custom-logo logo-hover"/></span> Vite</span>
             <span class="skill-item"><span class="logo-wrapper"><img src={MavenLogo} alt="Maven" class="custom-logo logo-default"/><img src={MavenLogoOriginal} alt="Maven" class="custom-logo logo-hover"/></span> Maven</span>
             <span class="skill-item"><span class="logo-wrapper"><img src={GradleLogo} alt="Gradle" class="custom-logo logo-default"/><img src={GradleLogoOriginal} alt="Gradle" class="custom-logo logo-hover"/></span> Gradle</span>
@@ -85,7 +91,6 @@
             <span class="skill-item"><span class="logo-wrapper"><img src={ESLintLogo} alt="ESLint" class="custom-logo logo-default"/><img src={ESLintLogoOriginal} alt="ESLint" class="custom-logo logo-hover"/></span> ESLint</span>
             <span class="skill-item"><img src={SwigLogo} alt="SWIG" class="custom-logo logo-default"/> SWIG</span>
             <span class="skill-item"><span class="logo-wrapper"><img src={EmscriptenLogo} alt="Emscripten" class="custom-logo logo-default"/><img src={EmscriptenLogoOriginal} alt="Emscripten" class="custom-logo logo-hover"/></span> Emscripten</span>
-            <span class="skill-item"><span class="logo-wrapper"><img src={FormspreeLogo} alt="Formspree" class="custom-logo logo-default"/><img src={FormspreeLogoOriginal} alt="Formspree" class="custom-logo logo-hover"/></span> Formspree</span>
             <span class="skill-item"><span class="logo-wrapper"><img src={PostmanLogo} alt="Postman" class="custom-logo logo-default"/><img src={PostmanLogoOriginal} alt="Postman" class="custom-logo logo-hover"/></span> Postman</span>
             <span class="skill-item"><span class="logo-wrapper"><img src={PuttyLogo} alt="PuTTY" class="custom-logo logo-default"/><img src={PuttyLogoOriginal} alt="PuTTY" class="custom-logo logo-hover"/></span> PuTTY</span>
             <span class="skill-item"><span class="logo-wrapper"><img src={WiresharkLogo} alt="Wireshark" class="custom-logo logo-default"/><img src={WiresharkLogoOriginal} alt="Wireshark" class="custom-logo logo-hover"/></span> Wireshark</span>
@@ -105,6 +110,9 @@
             <span class="skill-item"><span class="logo-wrapper"><img src={NetlifyLogo} alt="Netlify" class="custom-logo logo-default"/><img src={NetlifyLogoOriginal} alt="Netlify" class="custom-logo logo-hover"/></span> Netlify</span>
             <span class="skill-item"><img src={RenderLogo} alt="Render" class="custom-logo logo-default"/> Render</span>
             <span class="skill-item"><span class="logo-wrapper"><img src={NeonLogo} alt="Neon" class="custom-logo logo-default"/><img src={NeonLogoOriginal} alt="Neon" class="custom-logo logo-hover"/></span> Neon</span>
+            <span class="skill-item"><span class="logo-wrapper"><img src={MakeLogo} alt="Make" class="custom-logo logo-default"/><img src={MakeLogoOriginal} alt="Make" class="custom-logo logo-hover"/></span> Make</span>
+            <span class="skill-item"><span class="logo-wrapper"><img src={FormspreeLogo} alt="Formspree" class="custom-logo logo-default"/><img src={FormspreeLogoOriginal} alt="Formspree" class="custom-logo logo-hover"/></span> Formspree</span>
+            <span class="skill-item"><span class="logo-wrapper"><img src={NtfyLogo} alt="ntfy" class="custom-logo logo-default"/><img src={NtfyLogoOriginal} alt="ntfy" class="custom-logo logo-hover"/></span> ntfy</span>
             <span class="skill-item"><span class="logo-wrapper"><img src={WebAssemblyLogo} alt="WebAssembly" class="custom-logo logo-default"/><img src={WebAssemblyLogoOriginal} alt="WebAssembly" class="custom-logo logo-hover"/></span> WebAssembly</span>
             <span class="skill-item"><span class="logo-wrapper"><img src={TampermonkeyLogo} alt="Tampermonkey" class="custom-logo logo-default"/><img src={TampermonkeyLogoOriginal} alt="Tampermonkey" class="custom-logo logo-hover"/></span> Tampermonkey</span>
             <span class="skill-item"><span class="logo-wrapper"><img src={DockerLogo} alt="Docker" class="custom-logo logo-default"/><img src={DockerLogoOriginal} alt="Docker" class="custom-logo logo-hover"/></span> Docker</span>
