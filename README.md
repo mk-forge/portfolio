@@ -36,14 +36,3 @@ I built this as my main developer portfolio, mainly to have a solid place to lin
 ![Home page](https://raw.githubusercontent.com/mk-forge/portfolio/main/Screenshots/home.png)
 ![Projects page](https://raw.githubusercontent.com/mk-forge/portfolio/main/Screenshots/projects.png)
 ![Contact page](https://raw.githubusercontent.com/mk-forge/portfolio/main/Screenshots/contact.png)
-
-## Installation
-
-```bash
-git clone https://github.com/mk-forge/portfolio.git
-cd portfolio
-npm install
-npm run dev
-```
-
-The site opens at http://localhost:5173.

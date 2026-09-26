@@ -3,6 +3,20 @@
   overflow: auto;
 }
 
+.scroll-container .os-viewport {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.scroll-container .os-viewport main {
+  flex: 1;
+}
+
+.scroll-container .os-viewport footer {
+  margin-top: auto;
+}
+
 .scroll-container .os-theme-light {
   --os-handle-bg: #c1c1c1;
   --os-handle-bg-hover: #a8a8a8;

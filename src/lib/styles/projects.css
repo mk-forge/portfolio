@@ -209,6 +209,10 @@
   flex-shrink: 0;
 }
 
+.page .projects-page {
+  opacity: 0;
+}
+
 .page.hydrated .projects-page {
   animation: fadeInUp 0.5s ease both;
 }
@@ -219,6 +223,14 @@
 
 .tab:hover {
   transform: translateY(-1px);
+}
+
+.page:not(.colorful) .tab.active .tab-icon-wrapper .tab-icon-color {
+  opacity: 1;
+}
+
+.page:not(.colorful) .tab.active .tab-icon-wrapper .tab-icon-mono {
+  opacity: 0;
 }
 
 body.dark .project-content img {

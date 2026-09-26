@@ -27,7 +27,9 @@
 
 <Scrollbar>
   <Navbar/>
-  {@render children()}
+  <main>
+    {@render children()}
+  </main>
   <Footer/>
   <ScrollToTop/>
 </Scrollbar>

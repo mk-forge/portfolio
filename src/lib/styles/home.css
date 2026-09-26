@@ -110,6 +110,10 @@
   opacity: 1;
 }
 
+.page .profile-card, .page .skills-card-wide {
+  opacity: 0;
+}
+
 .page.hydrated .profile-card, .page.hydrated .skills-card-wide {
   animation: fadeInUp 0.5s ease both;
 }
