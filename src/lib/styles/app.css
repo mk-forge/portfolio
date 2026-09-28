@@ -177,6 +177,14 @@ body.colorful .logo-wrapper .logo-hover, .skill-item:hover .logo-wrapper .logo-h
   opacity: 1;
 }
 
+body.colorful .skill-item.disabled .logo-wrapper .logo-default {
+  opacity: 1;
+}
+
+body.colorful .skill-item.disabled .logo-wrapper .logo-hover {
+  opacity: 0;
+}
+
 body.colorful .tab-icon-mono, .tab:hover .tab-icon-mono {
   opacity: 0;
 }
@@ -306,6 +314,14 @@ body.dark.colorful .logo-wrapper .logo-default {
 body.dark.colorful .logo-wrapper .logo-hover {
   opacity: 1;
   filter: brightness(1);
+}
+
+body.dark.colorful .skill-item.disabled .logo-wrapper .logo-default {
+  opacity: 1;
+}
+
+body.dark.colorful .skill-item.disabled .logo-wrapper .logo-hover {
+  opacity: 0;
 }
 
 body.dark.colorful .logo-wrapper .logo-hover[alt="Bash"],

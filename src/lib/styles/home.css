@@ -110,11 +110,11 @@
   opacity: 1;
 }
 
-.page .profile-card, .page .skills-card-wide {
+.page .profile-card, .page .skills-card-wide, .page .category-buttons {
   opacity: 0;
 }
 
-.page.hydrated .profile-card, .page.hydrated .skills-card-wide {
+.page.hydrated .profile-card, .page.hydrated .skills-card-wide, .page.hydrated .category-buttons {
   animation: fadeInUp 0.5s ease both;
 }
 
@@ -144,7 +144,7 @@
 }
 
 .profile-text {
-  flex: 1 1 60%;
+  flex: 1 1 70%;
 }
 
 .stats {
@@ -161,6 +161,44 @@
 }
 
 .stats .stats-light {
+  display: none;
+}
+
+.category-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.category-btn {
+  padding: 0.4rem 0.8rem;
+  border: 1px solid #d0d7de;
+  border-radius: 0 8px 0 8px;
+  background: #f6f8fa;
+  color: #1e1e2e;
+  font-family: inherit;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.category-btn:hover {
+  background: #e6e8eb;
+}
+
+.category-btn.active {
+  background: #1e1e2e;
+  color: #ffffff;
+  border-color: #1e1e2e;
+}
+
+.skill-item.disabled {
+  filter: grayscale(1) opacity(0.4);
+  pointer-events: none;
+}
+
+.skill-item.disabled .logo-hover {
   display: none;
 }
 
@@ -192,6 +230,22 @@ body.dark .stats .stats-light {
 
 body.dark .stats .stats-dark {
   display: none;
+}
+
+body.dark .category-btn {
+  background: #2a2a2a;
+  border-color: #30363d;
+  color: #c9d1d9;
+}
+
+body.dark .category-btn:hover {
+  background: #3a3a3a;
+}
+
+body.dark .category-btn.active {
+  background: #c9d1d9;
+  color: #1e1e1e;
+  border-color: #c9d1d9;
 }
 
 @media (max-width: 768px) {

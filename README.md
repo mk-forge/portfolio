@@ -10,6 +10,7 @@ I built this as my main developer portfolio, mainly to have a solid place to lin
 
 - Dark/light theme toggle
 - Colorful skill logos toggle with hover preview
+- Skill filtering by category
 - Custom scrollbar with hover expansion
 - Project browsing with Markdown rendering
 - Scroll-to-top button with smooth animation
