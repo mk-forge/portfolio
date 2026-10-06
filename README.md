@@ -37,3 +37,7 @@ I built this as my main developer portfolio, mainly to have a solid place to lin
 ![Home page](https://raw.githubusercontent.com/mk-forge/portfolio/main/Screenshots/home.png)
 ![Projects page](https://raw.githubusercontent.com/mk-forge/portfolio/main/Screenshots/projects.png)
 ![Contact page](https://raw.githubusercontent.com/mk-forge/portfolio/main/Screenshots/contact.png)
+
+## Credits
+
+Icons are provided by [Lucide](https://lucide.dev/icons/) and [Tabler Icons](https://tabler.io/icons/), which are licensed under the ISC License and MIT License, respectively.
