@@ -1,6 +1,8 @@
 export { default as DatabaseIcon } from './projects/database.svg';
 export { default as LightModeIcon } from './ui/light-mode.svg';
 export { default as DarkModeIcon } from './ui/dark-mode.svg';
+export { default as MenuIcon } from './ui/menu.svg';
+export { default as MenuXIcon } from './ui/menu-x.svg';
 export { default as ArrowUpIcon } from './ui/arrow-up.svg';
 export { default as PaletteIconLight } from './ui/palette-light.svg';
 export { default as PaletteIconDark } from './ui/palette-dark.svg';
@@ -29,6 +31,8 @@ export { default as SquaresIntersectIconOriginal } from './projects/squares-inte
 export { default as ActivityIconOriginal } from './projects/activity-original.svg';
 export { default as LightModeIconOriginal } from './ui/light-mode-original.svg';
 export { default as DarkModeIconOriginal } from './ui/dark-mode-original.svg';
+export { default as MenuIconOriginal } from './ui/menu-original.svg';
+export { default as MenuXIconOriginal } from './ui/menu-x-original.svg';
 
 export { default as CLogo } from './skills/c.svg';
 export { default as CppLogo } from './skills/cpp.svg';

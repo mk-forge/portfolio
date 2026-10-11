@@ -1,10 +1,11 @@
 <script lang="ts">
   import { page } from '$app/state';
   import { onMount } from 'svelte';
-  import { LightModeIcon, DarkModeIcon, LightModeIconOriginal, DarkModeIconOriginal } from '$lib/assets/icons';
+  import { LightModeIcon, DarkModeIcon, LightModeIconOriginal, DarkModeIconOriginal, MenuIcon, MenuIconOriginal, MenuXIcon, MenuXIconOriginal } from '$lib/assets/icons';
   import ColorfulToggle from './ColorfulToggle.svelte';
 
   let isDark = $state(false);
+  let menuOpen = $state(false);
 
   onMount(() => {
     let theme = localStorage.getItem('theme');
@@ -22,12 +23,33 @@
     document.body.classList.toggle('dark', isDark);
     localStorage.setItem('theme', isDark ? 'dark' : 'light');
   }
+
+  function closeMenu() {
+    menuOpen = false;
+  }
 </script>
 
 <nav>
-  <a href="/" class:active={page.url.pathname == '/'}>Domů</a>
-  <a href="/projects" class:active={page.url.pathname == '/projects'}>Projekty</a>
-  <a href="/contact" class:active={page.url.pathname == '/contact'}>Kontakt</a>
+  <button
+    class="hamburger"
+    onclick={() => menuOpen = !menuOpen}
+    aria-label={menuOpen ? 'Zavřít menu' : 'Otevřít menu'}
+    aria-expanded={menuOpen}
+  >
+    {#if menuOpen}
+      <img src={MenuXIcon} alt="" class="hamburger-icon hamburger-icon-mono"/>
+      <img src={MenuXIconOriginal} alt="" class="hamburger-icon hamburger-icon-color"/>
+    {:else}
+      <img src={MenuIcon} alt="" class="hamburger-icon hamburger-icon-mono"/>
+      <img src={MenuIconOriginal} alt="" class="hamburger-icon hamburger-icon-color"/>
+    {/if}
+  </button>
+
+  <div class="nav-desktop">
+    <a href="/" class:active={page.url.pathname == '/'}>Domů</a>
+    <a href="/projects" class:active={page.url.pathname == '/projects'}>Projekty</a>
+    <a href="/contact" class:active={page.url.pathname == '/contact'}>Kontakt</a>
+  </div>
 
   <div class="nav-buttons">
     {#if page.url.pathname == '/' || page.url.pathname == '/projects'}
@@ -45,3 +67,11 @@
     </button>
   </div>
 </nav>
+
+{#if menuOpen}
+  <div class="mobile-menu">
+    <a href="/" class:active={page.url.pathname == '/'} onclick={closeMenu}>Domů</a>
+    <a href="/projects" class:active={page.url.pathname == '/projects'} onclick={closeMenu}>Projekty</a>
+    <a href="/contact" class:active={page.url.pathname == '/contact'} onclick={closeMenu}>Kontakt</a>
+  </div>
+{/if}

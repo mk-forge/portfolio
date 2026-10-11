@@ -193,6 +193,14 @@ body.colorful .tab-icon-color, .tab:hover .tab-icon-color {
   opacity: 1;
 }
 
+body.colorful .hamburger-icon-mono {
+  display: none;
+}
+
+body.colorful .hamburger-icon-color {
+  display: block;
+}
+
 .nav-buttons {
   margin-left: auto;
   display: flex;
@@ -214,6 +222,62 @@ body.colorful .tab-icon-color, .tab:hover .tab-icon-color {
   padding: 0.05rem 0.5rem;
   border-radius: 0 4px 0 4px;
   opacity: 0.6;
+}
+
+.nav-desktop {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.hamburger {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.25rem;
+  color: inherit;
+  align-items: center;
+  justify-content: center;
+}
+
+.hamburger-icon {
+  width: 2.0rem;
+  height: 2.0rem;
+  display: block;
+}
+
+.hamburger-icon-color {
+  display: none;
+}
+
+.mobile-menu {
+  display: none;
+  flex-direction: column;
+  padding: 0.5rem 1rem 1rem;
+  border-bottom: 1px solid #d0d7de;
+  background: #ffffff;
+}
+
+.mobile-menu a {
+  padding: 0.6rem 0;
+  color: inherit;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  opacity: 0.75;
+  transition: opacity 0.2s ease;
+}
+
+.mobile-menu a:hover, .mobile-menu a.active {
+  color: #8b5cf6;
+  opacity: 1;
+}
+
+.mobile-menu a.active::before {
+  content: '>';
+  margin-right: 0.3rem;
+  color: #8b5cf6;
 }
 
 body.dark {
@@ -298,6 +362,15 @@ body.dark .theme-logo-color {
   filter: none;
 }
 
+body.dark .mobile-menu {
+  background: #1e1e1e;
+  border-bottom-color: #30363d;
+}
+
+body.dark .hamburger-icon {
+  filter: brightness(0) invert(1);
+}
+
 body.dark.colorful .theme-logo-mono {
   display: none;
 }
@@ -344,6 +417,15 @@ body.dark.colorful .tab-icon-color {
   filter: brightness(1);
 }
 
+body.dark.colorful .hamburger-icon-mono {
+  display: none;
+}
+
+body.dark.colorful .hamburger-icon-color {
+  display: block;
+  filter: none;
+}
+
 @media (max-width: 768px) {
   nav {
     gap: 1rem;
@@ -367,6 +449,18 @@ body.dark.colorful .tab-icon-color {
   .theme-logo {
     width: 32px;
     height: 32px;
+  }
+
+  .nav-desktop {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .mobile-menu {
+    display: flex;
   }
 
   body.dark nav {
