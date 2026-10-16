@@ -30,7 +30,7 @@
       <div class="profile-text">
         <h1 class="heading"><span class="heading-prefix">></span> O mně</h1>
         <p class="subtitle">
-          Jsem vývojář s přesahem od systémového programování v C++ po webové technologie jako SvelteKit a React. Baví mě řešit zajímavé problémy, jsem absolventem VŠB-TUO (Bc.). Aktuálně hledám práci, kde bych mohl dále růst a přinášet reálnou hodnotu.
+          Jsem vývojář s přesahem od systémového programování v C++ po webové technologie jako SvelteKit a React. Baví mě řešit zajímavé problémy, jsem absolventem VŠB-TUO (Bc.). Aktuálně pracuji jako vývojář a ve volném čase dělám na vlastních projektech.
         </p>
       </div>
       <div class="stats">
