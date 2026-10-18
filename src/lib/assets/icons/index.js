@@ -96,6 +96,8 @@ export { default as NtfyLogo } from './skills/ntfy.svg';
 export { default as NpmLogo } from './skills/npm.svg';
 export { default as VisualParadigmLogo } from './skills/visualparadigm.svg';
 export { default as PrettierLogo } from './skills/prettier.svg';
+export { default as GitHubActionsLogo } from './skills/githubactions.svg';
+export { default as DependabotLogo } from './skills/dependabot.svg';
 
 export { default as CLogoOriginal } from './skills/c-original.svg';
 export { default as CppLogoOriginal } from './skills/cpp-original.svg';
@@ -157,3 +159,5 @@ export { default as NtfyLogoOriginal } from './skills/ntfy-original.svg';
 export { default as NpmLogoOriginal } from './skills/npm-original.svg';
 export { default as VisualParadigmLogoOriginal } from './skills/visualparadigm-original.svg';
 export { default as PrettierLogoOriginal } from './skills/prettier-original.svg';
+export { default as GitHubActionsLogoOriginal } from './skills/githubactions-original.svg';
+export { default as DependabotLogoOriginal } from './skills/dependabot-original.svg';

@@ -7,6 +7,7 @@ export const skillCategories: Record<string, string[]> = {
   'Vývojová prostředí': ['Visual Studio', 'Visual Studio Code', 'IntelliJ IDEA'],
   'Verzování': ['Git', 'GitHub', 'GitLab'],
   'Sestavení': ['GNU Make', 'Vite', 'npm', 'Maven', 'Gradle'],
+  'CI/CD': ['GitHub Actions', 'Dependabot'],
   'Dokumentace': ['Doxygen'],
   'Lintery': ['SonarQube', 'ESLint'],
   'Formátování': ['Prettier'],

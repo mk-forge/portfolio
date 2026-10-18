@@ -34,7 +34,8 @@ I built this as my main developer portfolio, mainly to have a solid place to lin
 
 ## Screenshots
 
-![Home page](https://raw.githubusercontent.com/mk-forge/portfolio/main/Screenshots/home.png)
+![Home mono page](https://raw.githubusercontent.com/mk-forge/portfolio/main/Screenshots/home-mono.png)
+![Home colorful page](https://raw.githubusercontent.com/mk-forge/portfolio/main/Screenshots/home-colorful.png)
 ![Projects page](https://raw.githubusercontent.com/mk-forge/portfolio/main/Screenshots/projects.png)
 ![Contact page](https://raw.githubusercontent.com/mk-forge/portfolio/main/Screenshots/contact.png)
 
