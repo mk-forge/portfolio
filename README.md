@@ -1,5 +1,11 @@
 # Portfolio
 
+![SvelteKit](https://img.shields.io/badge/SvelteKit-FF3E00?logo=svelte&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![Formspree](https://img.shields.io/badge/Formspree-000000?logo=formspree&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?logo=cloudflare&logoColor=white)
+
 Personal website and developer portfolio built with SvelteKit.
 
 ## Overview
@@ -42,3 +48,7 @@ I built this as my main developer portfolio, mainly to have a solid place to lin
 ## Credits
 
 Icons are provided by [Lucide](https://lucide.dev/icons/) and [Tabler Icons](https://tabler.io/icons/), which are licensed under the ISC License and MIT License, respectively.
+
+## License
+
+[MIT](LICENSE)
