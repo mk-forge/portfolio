@@ -335,7 +335,6 @@ body.dark .skill-item:hover .logo-wrapper .logo-hover {
 }
 
 body.dark .skill-item:hover .logo-wrapper .logo-hover[alt="Bash"],
-body.dark .skill-item:hover .logo-wrapper .logo-hover[alt="Express"],
 body.dark .skill-item:hover .logo-wrapper .logo-hover[alt="Django"],
 body.dark .skill-item:hover .logo-wrapper .logo-hover[alt="Prisma"],
 body.dark .skill-item:hover .logo-wrapper .logo-hover[alt="Cordova"],
@@ -398,7 +397,6 @@ body.dark.colorful .skill-item.disabled .logo-wrapper .logo-hover {
 }
 
 body.dark.colorful .logo-wrapper .logo-hover[alt="Bash"],
-body.dark.colorful .logo-wrapper .logo-hover[alt="Express"],
 body.dark.colorful .logo-wrapper .logo-hover[alt="Django"],
 body.dark.colorful .logo-wrapper .logo-hover[alt="Prisma"],
 body.dark.colorful .logo-wrapper .logo-hover[alt="Cordova"],

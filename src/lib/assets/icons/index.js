@@ -108,7 +108,6 @@ export { default as PostmanLogoOriginal } from './skills/postman-original.svg';
 export { default as BootstrapLogoOriginal } from './skills/bootstrap-original.svg';
 export { default as OpenGLLogoOriginal } from './skills/opengl-original.svg';
 export { default as PrismaLogoOriginal } from './skills/prisma-original.svg';
-export { default as ExpressLogoOriginal } from './skills/express-original.svg';
 export { default as BlazorLogoOriginal } from './skills/blazor-original.svg';
 export { default as PostgreSQLLogoOriginal } from './skills/postgresql-original.svg';
 export { default as SQLiteLogoOriginal } from './skills/sqlite-original.svg';

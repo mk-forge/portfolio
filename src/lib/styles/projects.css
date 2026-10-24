@@ -110,12 +110,21 @@
 }
 
 .project-content img {
+  display: block;
+  margin: 1rem auto;
   max-width: 80%;
   height: auto;
   border-radius: 0 8px 0 8px;
   border: 1px solid #d0d7de;
-  display: block;
-  margin: 0 auto;
+}
+
+.project-content img[src*="shields.io"] {
+  display: inline-block;
+  margin: 0 -5px 0 0;
+  max-width: none;
+  border: none;
+  border-radius: 0;
+  vertical-align: middle;
 }
 
 .project-content h1 {
