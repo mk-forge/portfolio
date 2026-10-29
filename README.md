@@ -3,6 +3,7 @@
 ![SvelteKit](https://img.shields.io/badge/SvelteKit-FF3E00?logo=svelte&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white)
 ![Formspree](https://img.shields.io/badge/Formspree-D40D28?logo=formspree&logoColor=white)
+![SVGO](https://img.shields.io/badge/SVGO-3D7BBE?logo=svgo&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-6B1EB9?logo=vite&logoColor=white)
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?logo=cloudflare&logoColor=white)
 
@@ -31,6 +32,7 @@ I built this as my main developer portfolio, mainly to have a solid place to lin
 - **Language:** TypeScript
 - **Libraries:** marked, overlayscrollbars
 - **Forms:** Formspree
+- **Assets:** SVGO
 - **Build:** Vite
 - **Deploy:** Cloudflare Workers
 
