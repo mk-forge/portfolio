@@ -9,6 +9,7 @@
   let name = $state('');
   let email = $state('');
   let message = $state('');
+  let honeypot = $state('');
   let sent = $state(false);
   let error = $state('');
   let hydrated = $state(false);
@@ -21,6 +22,11 @@
     event.preventDefault();
     sent = false;
     error = '';
+
+    if (honeypot) {
+      sent = true;
+      return;
+    }
 
     try {
       let response = await fetch('https://formspree.io/f/mvkpekbr', {
@@ -61,6 +67,7 @@
         <span>Zpráva</span>
         <textarea bind:value={message} rows="5" required></textarea>
       </label>
+      <input type="text" bind:value={honeypot} tabindex="-1" autocomplete="off" class="honeypot"/>
       <button type="submit">Odeslat</button>
 
       {#if sent}
