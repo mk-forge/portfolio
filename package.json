@@ -17,14 +17,14 @@
 		"@sveltejs/adapter-cloudflare": "^7.2.9",
 		"@sveltejs/kit": "^2.70.3",
 		"@sveltejs/vite-plugin-svelte": "^7.1.2",
-		"svelte": "^5.57.2",
+		"svelte": "^5.57.3",
 		"svelte-check": "^4.6.0",
 		"typescript": "^6.0.3",
 		"vite": "^8.3.5",
-		"wrangler": "^4.152.0"
+		"wrangler": "^4.155.0"
 	},
 	"dependencies": {
-		"marked": "^18.1.1",
+		"marked": "^18.1.2",
 		"overlayscrollbars": "^2.17.0"
 	}
 }
