@@ -100,6 +100,7 @@ export { default as DependabotLogo } from './skills/dependabot.svg';
 export { default as JQueryLogo } from './skills/jquery.svg';
 export { default as SSMSLogo } from './skills/ssms.svg';
 export { default as SVGOLogo } from './skills/svgo.svg';
+export { default as EsbuildLogo } from './skills/esbuild.svg';
 
 export { default as CLogoOriginal } from './skills/c-original.svg';
 export { default as CppLogoOriginal } from './skills/cpp-original.svg';
@@ -164,3 +165,4 @@ export { default as DependabotLogoOriginal } from './skills/dependabot-original.
 export { default as JQueryLogoOriginal } from './skills/jquery-original.svg';
 export { default as SSMSLogoOriginal } from './skills/ssms-original.svg';
 export { default as SVGOLogoOriginal } from './skills/svgo-original.svg';
+export { default as EsbuildLogoOriginal } from './skills/esbuild-original.svg';
