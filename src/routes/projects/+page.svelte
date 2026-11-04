@@ -6,8 +6,12 @@
   import { DatabaseIcon, CubeIcon, PacmanIcon, BookOpenIcon, SquaresIntersectIcon, GemIcon, FilmIcon, PingPongIcon, IdCardIcon, ActivityIcon, BroomIcon, ExternalLinkIcon, DatabaseIconOriginal, CubeIconOriginal, PacmanIconOriginal, BookOpenIconOriginal, SquaresIntersectIconOriginal, GemIconOriginal, FilmIconOriginal, PingPongIconOriginal, IdCardIconOriginal, ActivityIconOriginal, BroomIconOriginal } from '$lib/assets/icons';
   import { TabPanelScrollbar } from '$lib/components';
   import { marked } from 'marked';
+  import { gfmAlert } from 'marked-gfm-alert';
   import { onMount } from 'svelte';
+  import 'marked-gfm-alert/alert.css';
   import '$lib/styles/projects.css';
+
+  marked.use(gfmAlert());
 
   let projects = [
     { label: 'Data Collection Generator', icon: DatabaseIcon, iconOriginal: DatabaseIconOriginal, repoUrl: 'https://github.com/mk-forge/data-collection-generator', readmeUrl: 'https://raw.githubusercontent.com/mk-forge/data-collection-generator/main/README.md', isFork: false },
@@ -59,14 +63,43 @@
     tabPanelElement.classList.add('fade-in');
   }
 
+  function capitalizeAlertTitles() {
+    document.querySelectorAll('.markdown-alert-title').forEach(element => {
+      let svgImage = element.querySelector('svg');
+      let titleText = element.textContent.trim();
+
+      if (titleText) {
+        let capitalizedText = titleText.charAt(0).toUpperCase() + titleText.slice(1).toLowerCase();
+        element.innerText = '';
+        if (svgImage) element.appendChild(svgImage);
+        element.appendChild(document.createTextNode(capitalizedText));
+      }
+    });
+  }
+
+  function shortenAlertLines() {
+    document.querySelectorAll<HTMLElement>('.markdown-alert').forEach(alert => {
+      alert.style.setProperty('padding-block', '0.5rem');
+      alert.style.setProperty('border-left-width', '4px');
+
+      let firstElement = alert.firstElementChild as HTMLElement | null;
+      let lastElement = alert.lastElementChild as HTMLElement | null;
+      firstElement?.style.setProperty('margin-top', '0');
+      lastElement?.style.setProperty('margin-bottom', '0');
+    });
+  }
+
   $effect(() => {
     let url = projects[activeTab].repoUrl;
     let loaded = readmes[url] != undefined;
-
     replayFadeIn();
-
+    
     if (loaded) {
-      setTimeout(openLinksInNewTab, 0);
+      setTimeout(() => {
+        openLinksInNewTab();
+        capitalizeAlertTitles();
+        shortenAlertLines();
+      }, 0);
     }
   });
 </script>

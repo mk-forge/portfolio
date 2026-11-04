@@ -30,7 +30,7 @@ I built this as my main developer portfolio, mainly to have a solid place to lin
 
 - **Framework:** SvelteKit
 - **Language:** TypeScript
-- **Libraries:** marked, overlayscrollbars
+- **Libraries:** marked, marked-gfm-alert, overlayscrollbars
 - **Forms:** Formspree
 - **Assets:** SVGO
 - **Build:** Vite
