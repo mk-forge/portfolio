@@ -11,7 +11,7 @@ export const skillCategories: Record<string, string[]> = {
   'Dokumentace': ['Doxygen'],
   'Lintery': ['SonarQube', 'ESLint'],
   'Formátování': ['Prettier'],
-  'Optimalizace': ['esbuild', 'SVGO'],
+  'Optimalizace': ['esbuild', 'PurgeCSS', 'SVGO'],
   'Wrappery': ['SWIG'],
   'Toolchainy': ['Emscripten'],
   'Sítě': ['Postman', 'PuTTY', 'Packet Tracer'],
