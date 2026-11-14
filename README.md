@@ -6,6 +6,7 @@
 ![SVGO](https://img.shields.io/badge/SVGO-3D7BBE?logo=svgo&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-6B1EB9?logo=vite&logoColor=white)
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?logo=cloudflare&logoColor=white)
+![AWT](https://img.shields.io/badge/AWT-FF8800?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiBmaWxsPSJub25lIiB2aWV3Qm94PSIwIDAgMTI4IDEyOCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTI0IDh2MjRoNjR2MTZsLTI2LjEwNC40NTZDMjYuOCA1MS43MTIgMTYgNjAuMDggMTYgODQuOTZ2Ni41MTJDMTYgMTEwLjUzNiAzMC4zMjggMTIwIDQ4IDEyMGM3Ljk4NCAwIDE2LjMyLTEuNTYgMjUuMDQtNS45NzZMODggMTA4djEyaDI0Vjh6bTY0IDc2LTE4LjExMiA3LjQ3MmMtNi4yOTYgMy40ODgtMTIuODMyIDUuMzQ0LTE3LjkyIDUuMzQ0QzQ1LjY4IDk2LjgxNiA0MCA5NS42OCA0MCA4OHYtNS4xMmMuNDgtOC4xMzYgNy4zNzYtMTEuMTc2IDI2LjI1Ni0xMy4wMzJMODggNjh6Ii8+PC9zdmc+)
 
 Personal website and developer portfolio built with SvelteKit.
 
@@ -35,6 +36,7 @@ I built this as my main developer portfolio, mainly to have a solid place to lin
 - **Assets:** SVGO
 - **Build:** Vite
 - **Deploy:** Cloudflare Workers
+- **SEO:** AWT
 
 ## Website
 

@@ -5,8 +5,15 @@ import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 const config = {
 	preprocess: vitePreprocess(),
 	kit: {
-		adapter: adapter()
-	}
+    	adapter: adapter({
+      		routes: {
+        		exclude: ['/sitemap.xml']
+      		}
+    	}),
+    	prerender: {
+    		entries: ['/robots.txt', '/sitemap.xml']
+    	}
+  	}
 };
 
 export default config;
