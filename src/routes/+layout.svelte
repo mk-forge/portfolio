@@ -28,6 +28,8 @@
   <meta name="twitter:description" content="Osobní portfolio a projekty vývojáře se zájmem o systémové programování a webové technologie."/>
   <meta name="twitter:image" content="https://portfolio.mk-forge.workers.dev/og-image.png"/>
   <meta name="twitter:image:alt" content="MK | Vývojář"/>
+
+  <script src="https://analytics.ahrefs.com/analytics.js" data-key="6hL97AUJVWvaXRm8EWX1cQ" async></script>
 </svelte:head>
 
 <Scrollbar>
