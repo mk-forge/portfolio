@@ -280,6 +280,57 @@ body.colorful .hamburger-icon-color {
   color: #8b5cf6;
 }
 
+.info-box, .success-box, .error-box {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-top: 0.5;
+  padding: 0.7rem 1rem;
+  font-size: 0.9rem;
+}
+
+.info-box img, .success-box img, .error-box img {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+
+.info-box {
+  background: #e8f0fe;
+  border-left: 4px solid #1a73e8;
+  color: #1a73e8;
+}
+
+.success-box {
+  background: #e6f4ea;
+  border-left: 4px solid #2e7d32;
+  color: #2e7d32;
+}
+
+.error-box {
+  background: #fdecea;
+  border-left: 4px solid #c62828;
+  color: #c62828;
+}
+
+body.dark .info-box {
+  background: rgba(66, 133, 244, 0.12);
+  border-left-color: #4285f4;
+  color: #4285f4;
+}
+
+body.dark .success-box {
+  background: rgba(102, 187, 106, 0.12);
+  border-left-color: #66bb6a;
+  color: #66bb6a;
+}
+
+body.dark .error-box {
+  background: rgba(239, 83, 80, 0.12);
+  border-left-color: #ef5350;
+  color: #ef5350;
+}
+
 body.dark {
   background: #1e1e1e;
   color: #c9d1d9;

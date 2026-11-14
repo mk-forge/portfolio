@@ -1,5 +1,5 @@
 <svelte:head>
-  <title>MK | Kontakt</title>
+  <title>MK | Kontakt: formulář s informacemi</title>
 </svelte:head>
 
 <script lang="ts">
@@ -54,6 +54,11 @@
     <h1 class="heading"><span class="heading-prefix">></span> Kontakt</h1>
     <p class="subtitle">Napište mi zprávu a ozvu se co nejdříve.</p>
 
+    <div class="info-box">
+      <img src="/info.png" alt=""/>
+      <span>Po odeslání formuláře proběhne ověření, že nejste robot. Vaše zpráva bude doručena přímo do mé e-mailové schránky.</span>
+    </div>
+
     <form onsubmit={handleSubmit}>
       <label>
         <span>Jméno</span>
@@ -71,13 +76,13 @@
       <button type="submit">Odeslat</button>
 
       {#if sent}
-        <div class="success">
+        <div class="success-box">
           <img src="/success.png" alt=""/>
           <span>Zpráva byla odeslána.</span>
         </div>
       {/if}
       {#if error}
-        <div class="error">
+        <div class="error-box">
           <img src="/error.png" alt=""/>
           <span>Zprávu se nepodařilo odeslat: {error}</span>
         </div>

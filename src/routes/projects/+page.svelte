@@ -1,5 +1,5 @@
 <svelte:head>
-  <title>MK | Projekty</title>
+  <title>MK | Projekty: přehled s ukázkami</title>
 </svelte:head>
 
 <script lang="ts">
@@ -15,11 +15,11 @@
 
   let projects = [
     { label: 'Data Collection Generator', icon: DatabaseIcon, iconOriginal: DatabaseIconOriginal, repoUrl: 'https://github.com/mk-forge/data-collection-generator', readmeUrl: 'https://raw.githubusercontent.com/mk-forge/data-collection-generator/main/README.md', isFork: false },
-    { label: 'RenderForge', icon: CubeIcon, iconOriginal: CubeIconOriginal, repoUrl: 'https://github.com/mk-forge/render-forge', readmeUrl: 'https://raw.githubusercontent.com/mk-forge/render-forge/main/README.md', isFork: false },
-    { label: 'PAC-XON', icon: PacmanIcon, iconOriginal: PacmanIconOriginal, repoUrl: 'https://github.com/mk-forge/pac-xon', readmeUrl: 'https://raw.githubusercontent.com/mk-forge/pac-xon/main/README.md', isFork: false },
     { label: 'E-Learning Platform', icon: BookOpenIcon, iconOriginal: BookOpenIconOriginal, repoUrl: 'https://github.com/mk-forge/e-learning-platform', readmeUrl: 'https://raw.githubusercontent.com/mk-forge/e-learning-platform/main/README.md', isFork: false },
-    { label: 'Table Tennis Manager', icon: PingPongIcon, iconOriginal: PingPongIconOriginal, repoUrl: 'https://github.com/mk-forge/table-tennis-manager', readmeUrl: 'https://raw.githubusercontent.com/mk-forge/table-tennis-manager/main/README.md', isFork: false },
+    { label: 'RenderForge', icon: CubeIcon, iconOriginal: CubeIconOriginal, repoUrl: 'https://github.com/mk-forge/render-forge', readmeUrl: 'https://raw.githubusercontent.com/mk-forge/render-forge/main/README.md', isFork: false },
     { label: 'Portfolio', icon: IdCardIcon, iconOriginal: IdCardIconOriginal, repoUrl: 'https://github.com/mk-forge/portfolio', readmeUrl: 'https://raw.githubusercontent.com/mk-forge/portfolio/main/README.md', isFork: false },
+    { label: 'Table Tennis Manager', icon: PingPongIcon, iconOriginal: PingPongIconOriginal, repoUrl: 'https://github.com/mk-forge/table-tennis-manager', readmeUrl: 'https://raw.githubusercontent.com/mk-forge/table-tennis-manager/main/README.md', isFork: false },
+    { label: 'PAC-XON', icon: PacmanIcon, iconOriginal: PacmanIconOriginal, repoUrl: 'https://github.com/mk-forge/pac-xon', readmeUrl: 'https://raw.githubusercontent.com/mk-forge/pac-xon/main/README.md', isFork: false },
     { label: 'Set Intersection', icon: SquaresIntersectIcon, iconOriginal: SquaresIntersectIconOriginal, repoUrl: 'https://github.com/mk-forge/set-intersection', readmeUrl: 'https://raw.githubusercontent.com/mk-forge/set-intersection/main/README.md', isFork: false },
     { label: 'Minecraft Gems Mod', icon: GemIcon, iconOriginal: GemIconOriginal, repoUrl: 'https://github.com/mk-forge/minecraft-gems-mod', readmeUrl: 'https://raw.githubusercontent.com/mk-forge/minecraft-gems-mod/main/README.md', isFork: false },
     { label: 'ČSFD Extended', icon: FilmIcon, iconOriginal: FilmIconOriginal, repoUrl: 'https://github.com/mk-forge/csfd-extended', readmeUrl: 'https://raw.githubusercontent.com/mk-forge/csfd-extended/main/README.md', isFork: false },
@@ -64,7 +64,7 @@
   }
 
   function capitalizeAlertTitles() {
-    document.querySelectorAll('.markdown-alert-title').forEach(element => {
+    document.querySelectorAll<HTMLElement>('.markdown-alert-title').forEach(element => {
       let svgImage = element.querySelector('svg');
       let titleText = element.textContent.trim();
 
@@ -107,7 +107,11 @@
 <div class="page" class:hydrated>
   <div class="projects-page">
     <h1 class="heading"><span class="heading-prefix">></span> Moje projekty</h1>
-    <p class="subtitle">Klikni na záložku a prohlédni si detaily projektu.</p>
+    <p class="subtitle">Zde najdete přehled mých projektů.</p>
+    <div class="info-box">
+      <img src="/info.png" alt=""/>
+      <span>Kliknutím na záložku se zobrazí podrobný popis včetně technologií. Odkaz na GitHub repozitář najdete na pravém kraji záložek projektů.</span>
+    </div>
 
     <div class="tabs-container">
       <div class="tab-list">

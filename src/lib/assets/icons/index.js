@@ -102,6 +102,7 @@ export { default as SSMSLogo } from './skills/ssms.svg';
 export { default as SVGOLogo } from './skills/svgo.svg';
 export { default as EsbuildLogo } from './skills/esbuild.svg';
 export { default as PurgeCSSLogo } from './skills/purgecss.svg';
+export { default as AWTLogo } from './skills/awt.svg';
 
 export { default as CLogoOriginal } from './skills/c-original.svg';
 export { default as CppLogoOriginal } from './skills/cpp-original.svg';
@@ -167,3 +168,4 @@ export { default as JQueryLogoOriginal } from './skills/jquery-original.svg';
 export { default as SSMSLogoOriginal } from './skills/ssms-original.svg';
 export { default as SVGOLogoOriginal } from './skills/svgo-original.svg';
 export { default as EsbuildLogoOriginal } from './skills/esbuild-original.svg';
+export { default as AWTLogoOriginal } from './skills/awt-original.svg';

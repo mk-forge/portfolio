@@ -19,7 +19,7 @@ export const skillCategories: Record<string, string[]> = {
   'Operační systémy': ['Windows', 'Linux', 'Android'],
   'Nasazení': ['Cloudflare Workers', 'Netlify', 'Render'],
   'Automatizace': ['Make'],
-  'Služby': ['Formspree', 'ntfy'],
+  'Služby': ['Formspree', 'ntfy', 'AWT'],
   'Runtimy': ['WebAssembly'],
   'Kontejnerizace': ['Docker'],
   'Virtualizace': ['VirtualBox', 'VMware'],
