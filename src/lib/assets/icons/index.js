@@ -104,6 +104,7 @@ export { default as EsbuildLogo } from './skills/esbuild.svg';
 export { default as PurgeCSSLogo } from './skills/purgecss.svg';
 export { default as AWTLogo } from './skills/awt.svg';
 export { default as HCaptchaLogo } from './skills/hcaptcha.svg';
+export { default as Web3FormsLogo } from './skills/web3forms.svg';
 
 export { default as CLogoOriginal } from './skills/c-original.svg';
 export { default as CppLogoOriginal } from './skills/cpp-original.svg';
@@ -171,3 +172,4 @@ export { default as SVGOLogoOriginal } from './skills/svgo-original.svg';
 export { default as EsbuildLogoOriginal } from './skills/esbuild-original.svg';
 export { default as AWTLogoOriginal } from './skills/awt-original.svg';
 export { default as HCaptchaLogoOriginal } from './skills/hcaptcha-original.svg';
+export { default as Web3FormsLogoOriginal } from './skills/web3forms-original.svg';
