@@ -2,7 +2,7 @@
 
 ![SvelteKit](https://img.shields.io/badge/SvelteKit-FF3E00?logo=svelte&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white)
-![Formspree](https://img.shields.io/badge/Formspree-D40D28?logo=formspree&logoColor=white)
+![Web3Forms](https://img.shields.io/badge/Web3Forms-3249CE?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzOSIgaGVpZ2h0PSI0NyIgZmlsbD0ibm9uZSIgdmlld0JveD0iMCAwIDM5IDQ3Ij48bWFzayBpZD0iYSIgd2lkdGg9IjQzIiBoZWlnaHQ9IjQ3IiB4PSItMiIgeT0iMCIgbWFza1VuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTS0yIDBoNDN2NDdILTJ6Ii8+PHBhdGggc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjEuNiIgZD0ibS0xLjQyIDEzLjE5IDIwLjczNiAxMi4xOTJMNDAuNDMgMTMuMzJNMTkuMzE2IDI1LjM4MlY0NiIvPjwvbWFzaz48ZyBmaWxsPSIjZmZmIiBtYXNrPSJ1cmwoI2EpIj48cGF0aCBkPSJtMTkuMzE2IDI1LjM4MiAxOS41NDgtMTEuMTd2MTcuMjIxTDE5LjMxNiA0NHpNLjExNiAxNC4wOTZsMTkuMiAxMS4yODZ2MTguNTAybC0xOS4yLTExLjE3eiIvPjxwYXRoIGQ9Im0xOS40MTggMyAxOS40MTcgMTEuMjEtMTkuNDE3IDExLjIxTDAgMTQuMjF6Ii8+PC9nPjwvc3ZnPg==)
 ![hCaptcha](https://img.shields.io/badge/hCaptcha-00B9BF?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0ODIuMzQgNDgyLjM0Ij48ZGVmcz48bWFzayBpZD0iYSI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTEyMC41OSAwaDI0MS4xN3Y2MC4yOWg2MC4yOXY2MC4zaDYwLjI5djI0MS4xN2gtNjAuMjl2NjAuMjloLTYwLjI5djYwLjI5SDEyMC41OXYtNjAuMjloLTYwLjN2LTYwLjI5SDBWMTIwLjU5aDYwLjI5di02MC4zaDYwLjN6Ii8+PHBhdGggZD0ibTE1OC43NSAyMjIuMTUgMTYuOC0zNy42YzYuMTItOS42NCA1LjMxLTIxLjQ1LTEuMzktMjguMTVhMTcuMiAxNy4yIDAgMCAwLTIuOTUtMi4zNiAxOC41NiAxOC41NiAwIDAgMC0xNS41MS0xLjgxIDI1LjMzIDI1LjMzIDAgMCAwLTE0IDEwLjgzcy0yMyA1My42Ni0zMS41NiA3Ny43OFMxMDUgMzA5LjE5IDEzOCAzNDIuMjZjMzUgMzUgODUuNjggNDMgMTE4IDE4Ljc0YTIwLjMgMjAuMyAwIDAgMCAzLjc5LTIuNDdsOTkuNi04My4xN2M0Ljg0LTQgMTItMTIuMjQgNS41Ny0yMS42NC02LjI3LTkuMTctMTguMTUtMi45My0yMyAuMTdsLTU3LjMyIDQxLjY4YTIuNTggMi41OCAwIDAgMS0zLjctLjQzYy0xLjQ2LTEuNzktMS43Mi02LjUzLjU3LTguNDFsODcuODctNzQuNTdjNy41OS02Ljg0IDguNjUtMTYuNzggMi41LTIzLjU5LTYtNi42Ny0xNS41My02LjQ3LTIzLjE5LjQzbC03OS4xMSA2MS44NWEzLjUxIDMuNTEgMCAwIDEtNS4wNi0uNjZjLTEuNTYtMS43NS0yLjE2LTQuNzQtLjQtNi40OWw4OS42LTg2Ljk1YTE3LjUyIDE3LjUyIDAgMCAwIC44OC0yNC43NCAxNi43MyAxNi43MyAwIDAgMC0xMi4xNy01LjIxIDE3Ljg0IDE3Ljg0IDAgMCAwLTEyLjU4IDVsLTkxLjU1IDg2Yy0yLjE5IDIuMTktNi40OCAwLTctMi41NmEyLjc5IDIuNzkgMCAwIDEgLjc4LTIuNTZsNzAuMDgtNzkuNzlhMTcuMjcgMTcuMjcgMCAxIDAtMjQuMzctMjQuNDVMMTcxLjUyIDIyNS45M2MtMy44MSAzLjgxLTkuNDIgNC0xMi4wOSAxLjc5YTQgNCAwIDAgMS0uNjgtNS41NyIvPjwvbWFzaz48L2RlZnM+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAgMGg0ODIuMzR2NDgyLjM0SDB6IiBtYXNrPSJ1cmwoI2EpIi8+PC9zdmc+)
 ![SVGO](https://img.shields.io/badge/SVGO-3D7BBE?logo=svgo&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-6B1EB9?logo=vite&logoColor=white)
@@ -23,7 +23,7 @@ I built this as my main developer portfolio, mainly to have a solid place to lin
 - Custom scrollbar with hover expansion
 - Project browsing with Markdown rendering
 - Scroll-to-top button with smooth animation
-- Contact form integrated with Formspree
+- Contact form integrated with Web3Forms
 - Contact form secured by hCaptcha and honeypot
 - Terminal-style headings with hover effect (`>` + blinking cursor)
 - Smooth animations and loading spinner
@@ -34,7 +34,7 @@ I built this as my main developer portfolio, mainly to have a solid place to lin
 - **Framework:** SvelteKit
 - **Language:** TypeScript
 - **Libraries:** marked, marked-gfm-alert, overlayscrollbars
-- **Forms:** Formspree, hCaptcha
+- **Forms:** Web3Forms, hCaptcha
 - **Assets:** SVGO
 - **Build:** Vite
 - **Deploy:** Cloudflare Workers

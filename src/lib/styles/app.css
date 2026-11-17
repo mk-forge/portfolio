@@ -391,6 +391,8 @@ body.dark .skill-item:hover .logo-wrapper .logo-hover[alt="Prisma"],
 body.dark .skill-item:hover .logo-wrapper .logo-hover[alt="Cordova"],
 body.dark .skill-item:hover .logo-wrapper .logo-hover[alt="Tampermonkey"],
 body.dark .skill-item:hover .logo-wrapper .logo-hover[alt="GitHub"],
+body.dark .skill-item:hover .logo-wrapper .logo-hover[alt="Netlify"],
+body.dark .skill-item:hover .logo-wrapper .logo-hover[alt="Next.js"],
 body.dark .skill-item:hover .logo-wrapper .logo-hover[alt="Gradle"] {
   filter: brightness(0) invert(1);
 }
@@ -453,6 +455,8 @@ body.dark.colorful .logo-wrapper .logo-hover[alt="Prisma"],
 body.dark.colorful .logo-wrapper .logo-hover[alt="Cordova"],
 body.dark.colorful .logo-wrapper .logo-hover[alt="Tampermonkey"],
 body.dark.colorful .logo-wrapper .logo-hover[alt="GitHub"],
+body.dark.colorful .logo-wrapper .logo-hover[alt="Netlify"],
+body.dark.colorful .logo-wrapper .logo-hover[alt="Next.js"],
 body.dark.colorful .logo-wrapper .logo-hover[alt="Gradle"] {
   filter: brightness(0) invert(1);
 }
