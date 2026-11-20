@@ -106,7 +106,7 @@
 
 <div class="page" class:hydrated>
   <div class="projects-page">
-    <h1 class="heading"><span class="heading-prefix">></span> Moje projekty</h1>
+    <h1 class="heading"><span class="heading-prefix">></span> Projekty</h1>
     <p class="subtitle">Zde najdete přehled mých projektů.</p>
     <div class="info-box">
       <img src="/info.png" alt=""/>

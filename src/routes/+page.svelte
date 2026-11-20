@@ -37,14 +37,14 @@
         </p>
       </div>
       <div class="stats">
-        <img class="stats-dark" src="https://github-readme-stats.shion.dev/api/top-langs/?username=mk-forge&layout=donut&langs_count=6&hide=html,css,swig,batchfile,makefile&theme=default&hide_title=true" alt="Top Languages" loading="lazy" decoding="async"/>
-        <img class="stats-light" src="https://github-readme-stats.shion.dev/api/top-langs/?username=mk-forge&layout=donut&langs_count=6&hide=html,css,swig,batchfile,makefile&theme=one_dark_pro&hide_title=true" alt="Top Languages" loading="lazy" decoding="async"/>
+        <img class="stats-dark" src="https://github-readme-stats.shion.dev/api/top-langs/?username=mk-forge&layout=donut&langs_count=6&hide=html,css,swig,batchfile,makefile&theme=default&hide_title=true" width="350" height="217" alt="Top Languages" loading="lazy" decoding="async"/>
+        <img class="stats-light" src="https://github-readme-stats.shion.dev/api/top-langs/?username=mk-forge&layout=donut&langs_count=6&hide=html,css,swig,batchfile,makefile&theme=one_dark_pro&hide_title=true" width="350" height="217" alt="Top Languages" loading="lazy" decoding="async"/>
       </div>
     </div>
 
     <div class="profile-card filter-card">
       <div class="profile-text">
-        <h1 class="heading"><span class="heading-prefix">></span> Kategorie dovedností</h1>
+        <h1 class="heading"><span class="heading-prefix">></span> Dovednosti</h1>
         <div class="category-buttons">
           {#each categories as category}
             <button class="category-btn" class:active={activeCategory == category} onclick={() => activeCategory = category}>
